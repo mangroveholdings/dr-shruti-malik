@@ -1,0 +1,38 @@
+{
+  "name": "Dr. Shruti Malik",
+  "address": "Radix Health Care",
+  "bio": "A dental virtuoso at Radix Health Care, shaping smiles with precision and passion.",
+  "mainSkill": "Dentist",
+  "img": "/img/slider/shruti-malik.png",
+  "skills": [
+    {
+      "name": "illustrator",
+      "icon": "/img/svg/skills/stethoscope_3056512.svg",
+      "color": "rgb(247, 80, 35)",
+      "value": 85
+    },
+    {
+      "name": "photoshop ",
+      "icon": "/img/svg/skills/dental-care_2317964.svg",
+      "color": "rgb(28, 190, 89)",
+      "value": 95
+    },
+    {
+      "name": "figma ",
+      "icon": "/img/svg/skills/tooth.svg",
+      "color": "rgb(128, 103, 240)",
+      "value": 75
+    }
+  ],
+  "social": [
+    { "name": "facebook", "icon": "icon-facebook-1", "url": "https://www.facebook.com/shruti08malik/" },
+    { "name": "twitter", "icon": "icon-twitter-1", "url": "https://twitter.com/shruti08malik/" },
+    { "name": "linkedin", "icon": "icon-linkedin-1", "url": "https://www.linkedin.com/in/drshrutimalik/" },
+    { "name": "behance", "icon": "icon-instagram-1", "url": "https://www.instagram.com/drshrutimalik.08/" }
+  ],
+  "contact": {
+    "address": "C/217 - C/218, NIRMAN VIHAR, VIKAS MARG, DELHI 110092",
+    "email": "shruti.malik@nebulaholdings.co",
+    "phn": "1800-120-5457"
+  }
+}

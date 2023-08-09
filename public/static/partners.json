@@ -1,0 +1,50 @@
+[
+  {
+    "link": "https://www.youtube.com/embed/ukVfzxjCiTs?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/CNBC_logo.svg"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/oYtTCetv5LA?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/Republic_Bharat_logo.svg"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/5A5jY7nGUvw?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/News_nation_logo.jpg"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/s-BmIInYUv8?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/NDTV_logo.svg"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/OQaQoV8H8bg?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/Zee_news.svg"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/tOFHGqgAYJg?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/News_1_India.webp"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/dIas_AsZPWI?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/Zee_Hindustan_Logo.png"
+    }
+  },
+  {
+    "link": "https://www.youtube.com/embed/kTXL1cxuUDQ?autoplay=1",
+    "logo": {
+      "light": "/img/partners/light/aajtaklogo-freelogovectors.net_.webp"
+    }
+  }
+]

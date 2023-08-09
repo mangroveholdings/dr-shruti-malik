@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Scaling And Polishing",
+    "icon": {
+      "iconBg": "/img/brushes/service/ScalingandPolishing.png"
+    }
+  },
+  {
+    "title": "Root Canal Treatment",
+    "icon": {
+      "iconBg": "/img/brushes/service/RootCanalTreatment.png"
+    }
+  },
+  {
+    "title": "Dental Filings",
+    "icon": {
+      "iconBg": "/img/brushes/service/DentalFilings.png"
+    }
+  },
+  {
+    "title": "Dental Bridges",
+    "icon": {
+      "iconBg": "/img/brushes/service/DentalBridges.png"
+    }
+  },
+  {
+    "title": "Dental Crowns",
+    "icon": {
+      "iconBg": "/img/brushes/service/DentalCrowns.png"
+    }
+  },
+  {
+    "title": "Dental Implants",
+    "icon": {
+      "iconBg": "/img/brushes/service/DentalImplants.png"
+    }
+  },
+  {
+    "title": "Laser Gum De-pigmentation",
+    "icon": {
+      "iconBg": "/img/brushes/service/LaserGumDepigmentation.png"
+    }
+  },
+  {
+    "title": "Veneers Treatment",
+    "icon": {
+      "iconBg": "/img/brushes/service/VeneersTreatment.png"
+    }
+  },
+  {
+    "title": "Braces and Aligners",
+    "icon": {
+      "iconBg": "/img/brushes/service/BracesandAligners.png"
+    }
+  },
+  {
+    "title": "Paediatric dentistry",
+    "icon": {
+      "iconBg": "/img/brushes/service/Paediatricdentistry.png"
+    }
+  },
+  {
+    "title": "Teeth Whitening",
+    "icon": {
+      "iconBg": "/img/brushes/service/TeethWhitening.png"
+    }
+  },
+  {
+    "title": "Cosmetic Dentistry",
+    "icon": {
+      "iconBg": "/img/brushes/service/CosmeticDentistry.png"
+    }
+  }
+]
