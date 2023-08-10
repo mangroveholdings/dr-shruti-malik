@@ -43,25 +43,15 @@ const MobileMenu = () => {
               </a>
             </li>
             <li>
-              <a onClick={() => setToggle(false)} href="#blog">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a onClick={() => setToggle(false)} href="#contact">
-                Contact
+              <a onClick={() => setToggle(false)} href="#news">
+                News
               </a>
             </li>
             <li className="download_cv">
-              <a href="#">
+              <a href="#book-an-appointment">
                 <span>Book Appointment</span>
               </a>
             </li>
-            {/* <li className="download_cv">
-              <a href="img/cv/1.jpg" download="">
-                <span>Download CV</span>
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>

@@ -6,26 +6,12 @@ const CopyRight = ({ brandName }) => {
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
-                Developed with love by{" "}
-                <a
-                  href="https://themeforest.net/user/codeefly"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {brandName && brandName}
+                Copyright All rights reserved.
+                <a href="https://drshrutimalik.com/" target="_blank" rel="noreferrer">
+                  Dr. Shruti Malik
                 </a>{" "}
                 © {new Date().getFullYear()}
               </p>
-            </div>
-            <div className="right wow fadeInRight" data-wow-duration="1s">
-              <ul>
-                <li>
-                  <a href="#">{`Terms & Condition`}</a>
-                </li>
-                <li>
-                  <a href="#">Privacy Policy</a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>

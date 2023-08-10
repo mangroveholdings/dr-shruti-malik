@@ -50,7 +50,7 @@ const About = () => {
                 <p>{data.bio}</p>
               </div>
               <div className="dizme_tm_button wow fadeInUp" data-wow-duration="1s">
-                <a className="anchor" href="#contact">
+                <a className="anchor" href="#book-an-appointment">
                   <span>Book Appointment</span>
                 </a>
               </div>

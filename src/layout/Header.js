@@ -23,13 +23,10 @@ const Header = () => {
                 <a href="#service">Service</a>
               </li>
               <li>
-                <a href="#blog">Blog</a>
-              </li>
-              <li>
-                <a href="#contact">Contact</a>
+                <a href="#news">News</a>
               </li>
               <li className="download_cv">
-                <a href="#">
+                <a href="#book-an-appointment">
                   <span>Book Appointment</span>
                 </a>
               </li>

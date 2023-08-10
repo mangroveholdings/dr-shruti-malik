@@ -1,11 +1,5 @@
-import { useEffect, useState } from "react";
-import { fatchData } from "../utilits";
 import { InlineWidget } from "react-calendly";
-const Contact = () => {
-  const [data, setData] = useState({});
-  useEffect(async () => {
-    setData(await fatchData("/static/info.json"));
-  }, []);
+const BookAppointment = () => {
   return (
     <div className="dizme_tm_section" id="book-an-appointment">
       <div className="dizme_tm_contact">
@@ -44,4 +38,4 @@ const Contact = () => {
     </div>
   );
 };
-export default Contact;
+export default BookAppointment;
