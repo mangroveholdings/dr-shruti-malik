@@ -1,76 +1,69 @@
 {
   "categories": ["*", "Youtube", "Shorts", "Gallery"],
+  "bg1": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/brushes/portfolio/1.webp",
+  "bg2": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/brushes/portfolio/2.webp",
   "data": [
     {
       "category": "Youtube",
       "title": "Dr. Shruti Malik - BDS | MDS Endodontics - Radix Healthcare",
       "link": "https://www.youtube.com/embed/KE-w6Uiz0AQ?autoplay=1",
-      "imageSrc": "/img/thumbs/Dr-Shruti-Malik-thumb.jpg",
-      "detailImageSrc": "img/portfolio/Dr-Shruti-Malik.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Dr-Shruti-Malik.webp",
       "mobileTitle": "Dr. Shruti Malik - BDS | MDS Endodontics - Radix Healthcare"
     },
     {
       "category": "Youtube",
       "title": "Braces Treatment at Radix Healthcare",
       "link": "https://www.youtube.com/embed/Cb4IwXYbM_s?autoplay=1",
-      "imageSrc": "/img/thumbs/Braces-Treatment-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/Braces-Treatment.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Braces-Treatment.webp",
       "mobileTitle": "Braces Treatment at Radix Healthcare"
     },
     {
       "category": "Youtube",
       "title": "Our patients share their Dental problems journey with Dr Shruti Malik at Radix Healthcare Hospital.",
       "link": "https://www.youtube.com/embed/pSlL9bN3ZB0?autoplay=1",
-      "imageSrc": "/img/thumbs/patients-share-their-Dental-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/patients-share-their-Dental.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/patients-share-their-Dental.webp",
       "mobileTitle": "Our patients share their Dental problems journey with Dr Shruti Malik at Radix Healthcare Hospital."
     },
     {
       "category": "Youtube",
       "title": "First impressions are always wonderful Smile confidentially with smile makeover from radixhealthcare",
       "link": "https://www.youtube.com/embed/bMQXpR-p4gE?autoplay=1",
-      "imageSrc": "/img/thumbs/First-impressions-are-always-wonderful-Smile-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/First-impressions-are-always-wonderful-Smile.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/First-impressions-are-always-wonderful-Smile.webp",
       "mobileTitle": "First impressions are always wonderful Smile confidentially with smile makeover from radixhealthcare"
     },
     {
       "category": "Shorts",
       "title": "TEETH GAPS PROBLEM?",
       "link": "https://www.youtube.com/embed/QZNgjV9DZTU",
-      "imageSrc": "/img/thumbs/teeth-gap-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/teeth-gap.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/teeth-gap.webp",
       "mobileTitle": "TEETH GAPS PROBLEM?"
     },
     {
       "category": "Shorts",
       "title": "Hold your smile contest.",
       "link": "https://www.youtube.com/embed/JvIP9hsrNDA",
-      "imageSrc": "/img/thumbs/hold-your-smile-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/hold-your-smile.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/hold-your-smile.webp",
       "mobileTitle": "Hold your smile contest."
     },
     {
       "category": "Shorts",
       "title": "Brightening your gives you confidence unlike anything else.",
       "link": "https://www.youtube.com/embed/CD7xKzQJ5DM",
-      "imageSrc": "/img/thumbs/brighting-thumb.jpg",
-      "detailImageSrc": "/img/portfolio/brighting.jpg",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/brighting.webp",
       "mobileTitle": "Brightening your gives you confidence unlike anything else."
     },
     {
       "category": "Gallery",
       "title": "Dr. Shruti Malik Pic1",
-      "link": "/img/portfolio/Shruti.JPG",
-      "imageSrc": "/img/thumbs/Shruti.png",
-      "detailImageSrc": "/img/portfolio/Shruti.JPG",
+      "link": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Shruti.webp",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Shruti.webp",
       "mobileTitle": "Dr. Shruti Malik"
     },
     {
       "category": "Gallery",
       "title": "Dr. Shruti Malik Pic2",
-      "link": "/img/portfolio/Image2023-08-08at12.50.28.png",
-      "imageSrc": "/img/thumbs/Image2023-08-08at12.50.28.jpg",
-      "detailImageSrc": "/img/portfolio/Image2023-08-08at12.50.28.png",
+      "link": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Image2023-08-08at12.50.28.webp",
+      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Image2023-08-08at12.50.28.webp",
       "mobileTitle": "Dr. Shruti Malik"
     }
   ]

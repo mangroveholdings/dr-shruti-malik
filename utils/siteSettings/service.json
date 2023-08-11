@@ -1,74 +1,50 @@
 [
   {
     "title": "Scaling And Polishing",
-    "icon": {
-      "iconBg": "/img/brushes/service/ScalingandPolishing.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/ScalingandPolishing.webp"
   },
   {
     "title": "Root Canal Treatment",
-    "icon": {
-      "iconBg": "/img/brushes/service/RootCanalTreatment.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/RootCanalTreatment.webp"
   },
   {
     "title": "Dental Filings",
-    "icon": {
-      "iconBg": "/img/brushes/service/DentalFilings.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalFilings.webp"
   },
   {
     "title": "Dental Bridges",
-    "icon": {
-      "iconBg": "/img/brushes/service/DentalBridges.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalBridges.webp"
   },
   {
     "title": "Dental Crowns",
-    "icon": {
-      "iconBg": "/img/brushes/service/DentalCrowns.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalCrowns.webp"
   },
   {
     "title": "Dental Implants",
-    "icon": {
-      "iconBg": "/img/brushes/service/DentalImplants.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalImplants.webp"
   },
   {
     "title": "Laser Gum De-pigmentation",
-    "icon": {
-      "iconBg": "/img/brushes/service/LaserGumDepigmentation.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/LaserGumDepigmentation.webp"
   },
   {
     "title": "Veneers Treatment",
-    "icon": {
-      "iconBg": "/img/brushes/service/VeneersTreatment.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/VeneersTreatment.webp"
   },
   {
     "title": "Braces and Aligners",
-    "icon": {
-      "iconBg": "/img/brushes/service/BracesandAligners.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/BracesandAligners.webp"
   },
   {
     "title": "Paediatric dentistry",
-    "icon": {
-      "iconBg": "/img/brushes/service/Paediatricdentistry.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/Paediatricdentistry.webp"
   },
   {
     "title": "Teeth Whitening",
-    "icon": {
-      "iconBg": "/img/brushes/service/TeethWhitening.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/TeethWhitening.webp"
   },
   {
     "title": "Cosmetic Dentistry",
-    "icon": {
-      "iconBg": "/img/brushes/service/CosmeticDentistry.png"
-    }
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/CosmeticDentistry.webp"
   }
 ]

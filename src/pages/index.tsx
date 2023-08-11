@@ -1,6 +1,10 @@
 import Head from "next/head";
-import Hero from "../components/home";
 import Layout from "@/components/layout/Layout";
+import Hero from "../components/home";
+import Process from "@/components/process";
+import About from "@/components/about";
+import Portfolio from "@/components/portfolio";
+import Service from "@/components/service";
 
 export default function Home() {
   return (
@@ -13,6 +17,10 @@ export default function Home() {
       </Head>
       <main>
         <Hero />
+        <Process />
+        <About />
+        <Portfolio />
+        <Service />
       </main>
     </Layout>
   );

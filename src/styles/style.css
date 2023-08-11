@@ -1,5 +1,5 @@
 @charset "utf-8";
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /*	Copyright (c) 2022 Marketify
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
@@ -32,6 +32,7 @@
 :root {
   --blue: rgb(2, 93, 238);
   --orange: #f75023;
+  --poppins: "Poppins", sans-serif;
 }
 
 html {
@@ -42,7 +43,7 @@ html {
 body {
   overflow-x: hidden;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--poppins);
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0px;
@@ -124,7 +125,7 @@ h5,
 h6 {
   font-weight: 500;
   line-height: 1.3;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   color: #000;
 }
 
@@ -365,7 +366,7 @@ h6 {
   color: #000;
   display: inline-block;
   padding: 0px 0px;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-weight: 500;
 }
 .dizme_tm_mobile_menu .download_cv {
@@ -446,7 +447,7 @@ h6 {
   text-decoration: none;
   color: #000;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -600,7 +601,7 @@ h6 {
   text-decoration: none;
   color: #fff;
   display: inline-block;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-weight: 500;
   border-radius: 50px;
   border: 2px solid var(--blue);
@@ -911,7 +912,7 @@ h6 {
   font-size: 21px;
   color: #000;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   line-height: 1.3;
   padding-left: 17px;
 }
@@ -927,7 +928,7 @@ h6 {
   color: var(--blue);
   font-size: 24px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   margin-bottom: 6px;
 }
 .dizme_tm_about .right .title h3 {
@@ -977,7 +978,7 @@ h6 {
   font-size: 24px;
   font-weight: 500;
   color: var(--blue);
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   display: inline-block;
   margin-bottom: 6px;
 }
@@ -1021,7 +1022,7 @@ h6 {
 .dizme_tm_portfolio .portfolio_filter ul li a {
   text-decoration: none;
   color: #000;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-weight: 500;
 
   -webkit-transition: all 0.3s ease;
@@ -1096,7 +1097,7 @@ h6 {
   background: #ffffff;
   font-size: 21px;
   padding: 7px 15px;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-weight: 500;
   color: #000;
   position: fixed;
@@ -1302,7 +1303,7 @@ h6 {
 .dizme_tm_modalbox .portfolio_main_title span {
   display: inline-block;
   font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .dizme_tm_modalbox .portfolio_main_title span a {
   text-decoration: none;
@@ -1350,11 +1351,11 @@ h6 {
   font-size: 18px;
   display: block;
   color: #000;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .dizme_tm_modalbox .main_details .detailbox span {
   font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .dizme_tm_modalbox .main_details .detailbox span a {
   text-decoration: none;
@@ -1464,7 +1465,7 @@ h6 {
   color: #000;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -1484,7 +1485,7 @@ h6 {
   transition: all 2s cubic-bezier(0.165, 0.84, 0.44, 1); /* IE 10+ */
   color: var(--blue);
   font-size: 16px;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .progress_inner .background {
   background: #e7e5f1;
@@ -1623,7 +1624,7 @@ h6 {
   font-weight: 500;
   font-size: 21px;
   color: #000;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .dizme_tm_services .service_list .price span {
   font-size: 24px;
@@ -1719,7 +1720,7 @@ h6 {
   font-weight: 500;
   font-size: 21px;
   color: #000;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
 }
 .dizme_tm_modalbox .service_popup_informations .main_title span span {
   font-size: 24px;
@@ -2155,7 +2156,7 @@ h6 {
 .dizme_tm_news ul li .details .category a {
   font-size: 16px;
   color: var(--blue);
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   text-decoration: none;
   font-weight: 500;
   display: inline-block;
@@ -2220,7 +2221,7 @@ h6 {
 .dizme_tm_modalbox .news_popup_informations .details span a {
   text-decoration: none;
   color: #6f6b80;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-size: 16px;
 }
 .dizme_tm_modalbox .news_popup_informations .details h3 {
@@ -2310,7 +2311,7 @@ h6 {
   font-size: 21px;
   font-weight: 500;
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   margin-bottom: 5px;
 }
 .dizme_tm_subscribe .title {
@@ -2348,7 +2349,7 @@ h6 {
   border-top-right-radius: 12px;
   border-bottom-right-radius: 12px;
   color: #fff;
-  font-family: "Jost", sans-serif;
+  font-family: var(--poppins);
   font-size: 18px;
   text-transform: capitalize;
   font-weight: 500;
