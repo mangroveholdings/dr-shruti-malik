@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Image from "next/image"; // Import Image from Next.js
-import data from "../../../utils/siteSettings/workProcess.json";
+import data from "@utils/siteSettings/workProcess.json";
 
 const Process: FC = () => {
   return (

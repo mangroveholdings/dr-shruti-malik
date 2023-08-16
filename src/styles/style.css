@@ -1999,7 +1999,9 @@ h6 {
 /*---------------------------------------------------*/
 /*	11) DIZME PARTNERS
 /*---------------------------------------------------*/
-
+.calendly-inline-widget {
+  height: 750px;
+}
 .dizme_tm_partners {
   width: 100%;
   height: auto;
@@ -2870,6 +2872,9 @@ input[type="number"] {
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
+  .calendly-inline-widget {
+    height: 800px;
+  }
   body {
     font-size: 16px;
   }
@@ -3052,6 +3057,9 @@ input[type="number"] {
   }
 }
 @media (max-width: 1200px) {
+  .calendly-inline-widget {
+    height: 900px;
+  }
   .dizme_tm_modalbox .box_inner {
     width: 500px;
   }
@@ -3095,6 +3103,9 @@ input[type="number"] {
   }
 }
 @media (max-width: 1040px) {
+  .calendly-inline-widget {
+    height: 1000px;
+  }
   .container {
     padding: 0px 20px;
   }
@@ -3351,6 +3362,9 @@ input[type="number"] {
   }
 }
 @media (max-width: 768px) {
+  .calendly-inline-widget {
+    height: 1021px;
+  }
   .logo a h1 {
     font-size: 25px;
   }

@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import Counter from "../counter";
 import Link from "next/link";
 import Image from "next/image";
-import data from "../../../utils/siteSettings/about.json";
+import data from "@utils/siteSettings/about.json"
 
 const About: FC = () => {
   return (

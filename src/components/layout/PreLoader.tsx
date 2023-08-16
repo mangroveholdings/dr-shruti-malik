@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { preloader } from "../../../utils/helper";
+import { preloader } from "@utils/helper";
 
 const PreLoader: React.FC = () => {
   useEffect(() => {

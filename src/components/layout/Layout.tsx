@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import CopyRight from "../copyRight";
 import ImageView from "../popup/ImageView";
 import VideoPopup from "../popup/VideoPopup";
-import { dataImage, scrollTop, scroll_, stickyNav, wowJsAnimation } from "../../../utils/helper";
+import { dataImage, scrollTop, scroll_, stickyNav, wowJsAnimation } from "@utils/helper";
 import Cursor from "./Cursor";
 import Header from "./Header";
 import MobileMenu from "./MobileMenu";

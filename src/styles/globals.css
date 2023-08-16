@@ -20,7 +20,7 @@ span.swiper-pagination-bullet {
   display: inline-block;
   width: 15px;
   height: 15px;
-  background-color: #f75023;
+  background-color: rgb(2, 93, 238);
   position: relative;
   margin: 0px 12px;
   border-radius: 50%;
@@ -36,7 +36,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active::before {
   right: -5px;
 
   border-radius: 100%;
-  border: 2px solid #ffb324;
+  border: 2px solid rgb(65, 131, 238);
   /* z-index: -1; */
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;

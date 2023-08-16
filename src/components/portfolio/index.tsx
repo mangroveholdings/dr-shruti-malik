@@ -1,7 +1,7 @@
 import Isotope from "isotope-layout";
 import React, { useEffect, useRef, useState } from "react";
-import { dataImage, portfolioHover } from "../../../utils/helper";
-import portfolioData from "../../../utils/siteSettings/portfolio.json";
+import { dataImage, portfolioHover } from "@utils/helper";
+import portfolioData from "@utils/siteSettings/portfolio.json";
 
 interface PortfolioItem {
   title: string;

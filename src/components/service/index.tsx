@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import data from "../../../utils/siteSettings/service.json";
+import data from "@utils/siteSettings/service.json";
 
 const Service: React.FC = () => {
   useEffect(() => {

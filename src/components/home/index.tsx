@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import data from "../../../utils/siteSettings/info.json";
+import data from "@utils/siteSettings/info.json";
 
 const Hero = () => {
   return (

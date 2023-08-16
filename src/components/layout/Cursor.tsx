@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { customCursor } from "../../../utils/helper";
+import { customCursor } from "@utils/helper";
 
 const Cursor: React.FC = () => {
   useEffect(() => {

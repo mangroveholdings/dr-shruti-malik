@@ -1,50 +1,34 @@
 [
   {
     "link": "https://www.youtube.com/embed/ukVfzxjCiTs?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/CNBC_logo.svg"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/CNBC_logo.webp"
   },
   {
     "link": "https://www.youtube.com/embed/oYtTCetv5LA?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/Republic_Bharat_logo.svg"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/Republic_Bharat_logo.webp"
   },
   {
     "link": "https://www.youtube.com/embed/5A5jY7nGUvw?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/News_nation_logo.jpg"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/News_nation_logo.webp"
   },
   {
     "link": "https://www.youtube.com/embed/s-BmIInYUv8?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/NDTV_logo.svg"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/NDTV_logo.webp"
   },
   {
     "link": "https://www.youtube.com/embed/OQaQoV8H8bg?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/Zee_news.svg"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/Zee_news.webp"
   },
   {
     "link": "https://www.youtube.com/embed/tOFHGqgAYJg?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/News_1_India.webp"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/News_1_India.webp"
   },
   {
     "link": "https://www.youtube.com/embed/dIas_AsZPWI?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/Zee_Hindustan_Logo.png"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/Zee_Hindustan_Logo.webp"
   },
   {
     "link": "https://www.youtube.com/embed/kTXL1cxuUDQ?autoplay=1",
-    "logo": {
-      "light": "/img/partners/light/aajtaklogo-freelogovectors.net_.webp"
-    }
+    "logo": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/news/aajtaklogo-freelogovectors.net_.webp"
   }
 ]

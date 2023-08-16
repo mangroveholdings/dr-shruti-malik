@@ -8,7 +8,7 @@ const CopyRight: React.FC = () => {
           <div className="inner">
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
-                Copyright All rights reserved.
+                Copyright All rights reserved.{" "}
                 <a href="https://drshrutimalik.com/" target="_blank" rel="noreferrer">
                   Dr. Shruti Malik
                 </a>{" "}

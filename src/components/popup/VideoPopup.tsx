@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from "react";
-import useClickOutside from "../../../utils/useClickOutside";
+import useClickOutside from "@utils/useClickOutside";
 
 interface VideoPopupProps {
   close: () => void;

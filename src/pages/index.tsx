@@ -5,6 +5,9 @@ import Process from "@/components/process";
 import About from "@/components/about";
 import Portfolio from "@/components/portfolio";
 import Service from "@/components/service";
+import Testimonial from "@/components/testimonial";
+import News from "@/components/news";
+import BookAppointment from "@/components/book-appointment";
 
 export default function Home() {
   return (
@@ -21,6 +24,9 @@ export default function Home() {
         <About />
         <Portfolio />
         <Service />
+        <Testimonial />
+        <News />
+        <BookAppointment />
       </main>
     </Layout>
   );
