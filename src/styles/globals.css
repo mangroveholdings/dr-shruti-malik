@@ -4,6 +4,11 @@
 @import "./dark.css";
 @import "./style.css";
 
+@font-face {
+  font-family: "feelingPassionate";
+  src: url("font/Feeling\ Passionate.otf") format("opentype");
+}
+
 .c-pointer {
   cursor: pointer;
 }

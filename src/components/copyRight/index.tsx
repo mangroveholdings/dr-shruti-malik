@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const CopyRight: React.FC = () => {
@@ -9,9 +10,9 @@ const CopyRight: React.FC = () => {
             <div className="left wow fadeInLeft" data-wow-duration="1s">
               <p>
                 Copyright All rights reserved.{" "}
-                <a href="https://drshrutimalik.com/" target="_blank" rel="noreferrer">
+                <Link href="https://drshrutimalik.com/" target="_blank" rel="noreferrer">
                   Dr. Shruti Malik
-                </a>{" "}
+                </Link>{" "}
                 © {new Date().getFullYear()}
               </p>
             </div>
