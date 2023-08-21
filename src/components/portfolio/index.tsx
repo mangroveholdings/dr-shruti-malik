@@ -1,7 +1,8 @@
 import Isotope from "isotope-layout";
 import React, { useEffect, useRef, useState } from "react";
-import { dataImage, portfolioHover } from "@utils/helper";
+import { dataImage } from "@utils/helper";
 import portfolioData from "@utils/siteSettings/portfolio.json";
+import Link from "next/link";
 
 interface PortfolioItem {
   title: string;
@@ -17,7 +18,7 @@ interface CategoryRenderers {
 const Portfolio: React.FC = () => {
   useEffect(() => {
     dataImage();
-    portfolioHover();
+    // portfolioHover();
   }, []);
 
   const isotope = useRef<Isotope | null>(null);
@@ -61,22 +62,22 @@ const Portfolio: React.FC = () => {
 
   const categoryRenderers: CategoryRenderers = {
     Youtube: (item) => (
-      <a className="popup-youtube" href={item.link}>
+      <Link className="popup-youtube" href={item.link}>
         <img src={item.imageSrc} alt="image" />
         <div className="main" data-img-url={item.imageSrc} />
-      </a>
+      </Link>
     ),
     Shorts: (item) => (
-      <a className="popup-vimeo" href={item.link}>
+      <Link className="popup-vimeo" href={item.link}>
         <img src={item.imageSrc} alt="image" />
         <div className="main" data-img-url={item.imageSrc} />
-      </a>
+      </Link>
     ),
     Gallery: (item) => (
-      <a className="zoom" href={item.link}>
+      <Link className="zoom" href={item.link}>
         <img src={item.imageSrc} alt="image" />
         <div className="main" data-img-url={item.imageSrc} />
-      </a>
+      </Link>
     ),
     // Add more category renderers as needed
   };

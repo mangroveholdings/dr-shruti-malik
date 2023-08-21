@@ -20,7 +20,7 @@ const Service: React.FC = () => {
         <div className="container">
           <div className="dizme_tm_main_title" data-align="center">
             <span>Services</span>
-            <h3>What I Do for Clients</h3>
+            <h3>What I Do for Patients</h3>
             <p>We offer a number of general and specialized dentistry options to suit all ages and needs:</p>
           </div>
           <div className="service_list">
@@ -29,11 +29,11 @@ const Service: React.FC = () => {
                 (dataItem, i) =>
                   dataItem && (
                     <li className={`wow ${(i * 1) % 2 === 0 ? "fadeInLeft" : "fadeInRight"}`} data-wow-duration="1s" key={i}>
-                      <div className="list_inner tilt-effect">
-                        <span className="icon">
-                          <img className="back" src={dataItem.icon} alt="image" />
+                      <div className="list_inner1 tilt-effect">
+                        <span className="icon1">
+                          <img className="back1" src={dataItem.icon} alt="image" />
                         </span>
-                        <div className="title">
+                        <div className="title1">
                           <h3>{dataItem.title}</h3>
                         </div>
                       </div>

@@ -14,11 +14,16 @@ const Hero = () => {
                 <h3 className="orangeText">{`Hello, I'm`}</h3>
               </div>
               <div className="name">
-                <h3>{data.name}</h3>
+                <h3>
+                  <span>Dr</span>. <span>{data.name}</span>
+                </h3>
               </div>
               <div className="job">
                 <p>
-                  <span className="greenText">{data.mainSkill}</span> At <span className="purpleText">{data.address}</span>
+                  <span className="greenText">{data.mainSkill}</span> At{" "}
+                  <Link href={"https://radixhealthcare.org"} rel="noopener noreferrer" target="_blank">
+                    <span className="purpleText">{data.address}</span>
+                  </Link>
                 </p>
               </div>
               <div className="text">

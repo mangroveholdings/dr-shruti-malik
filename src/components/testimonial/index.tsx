@@ -12,6 +12,10 @@ const Testimonial = () => {
       el: ".owl-dots",
       clickable: true,
     },
+    autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+    }
   };
 
   return (
@@ -19,7 +23,7 @@ const Testimonial = () => {
       <div className="dizme_tm_testimonials">
         <div className="dizme_tm_main_title" data-align="center">
           <span>Testimonials</span>
-          <h3>What My Clients Say</h3>
+          <h3>What My Patients Say</h3>
         </div>
         <div className="list_wrapper">
           <div className="total">
