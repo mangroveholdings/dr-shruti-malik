@@ -658,6 +658,9 @@ h6 {
 .dizme_tm_hero .social ul {
   margin: 0px;
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 .dizme_tm_hero .social ul li {
   margin: 0px 5px 0px 0px;
@@ -1628,7 +1631,7 @@ h6 {
   background-color: #fff;
   box-shadow: 18px 0px 87px rgba(10, 15, 70, 0.07);
   padding: 45px 25px;
-  display:flex;
+  display: flex;
   align-items: center;
   gap: 20px;
 }
