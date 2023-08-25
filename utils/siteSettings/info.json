@@ -26,10 +26,10 @@
     }
   ],
   "social": [
-    { "name": "facebook", "icon": "icon-facebook-1", "url": "https://www.facebook.com/shruti08malik/" },
+    { "name": "facebook", "icon": "<FaFacebookF/>", "url": "https://www.facebook.com/shruti08malik/" },
     { "name": "twitter", "icon": "icon-twitter-1", "url": "https://twitter.com/shruti08malik/" },
     { "name": "linkedin", "icon": "icon-linkedin-1", "url": "https://www.linkedin.com/in/drshrutimalik/" },
-    { "name": "behance", "icon": "icon-instagram-1", "url": "https://www.instagram.com/drshrutimalik.08/" }
+    { "name": "behance", "icon": "icon-instagram-3", "url": "https://www.instagram.com/drshrutimalik.08/" }
   ],
   "contact": {
     "address": "C/217 - C/218, NIRMAN VIHAR, VIKAS MARG, DELHI 110092",

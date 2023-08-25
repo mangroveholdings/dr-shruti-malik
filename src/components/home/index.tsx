@@ -1,6 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import data from "@utils/siteSettings/info.json";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram } from "react-icons/fa";
+
+const social = [
+  { name: "facebook", icon: <FaFacebookF />, url: "https://www.facebook.com/shruti08malik/" },
+  { name: "twitter", icon: <FaTwitter />, url: "https://twitter.com/shruti08malik/" },
+  { name: "linkedin", icon: <FaLinkedinIn />, url: "https://www.linkedin.com/in/drshrutimalik/" },
+  { name: "behance", icon: <FaInstagram />, url: "https://www.instagram.com/drshrutimalik.08/" },
+];
 
 const Hero = () => {
   return (
@@ -37,10 +45,10 @@ const Hero = () => {
                 </div>
                 <div className="social">
                   <ul>
-                    {data.social?.map((social, i) => (
+                    {social?.map((social, i) => (
                       <li key={i}>
                         <Link href={social.url} target="_blank" rel="noreferrer">
-                          <i className={social.icon} />
+                          <i>{social.icon}</i>
                         </Link>
                       </li>
                     ))}
