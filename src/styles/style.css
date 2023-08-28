@@ -1640,9 +1640,9 @@ h6 {
   float: left;
   /* margin-bottom: 19px; */
 }
-.dizme_tm_services .service_list .title h3 {
-  font-size: 30px;
-  margin-bottom: 16px;
+.dizme_tm_services .service_list .title1 h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 .dizme_tm_services .service_list .price {
   font-weight: 500;
@@ -3005,10 +3005,6 @@ input[type="number"] {
   .dizme_tm_main_title h3 {
     margin-bottom: 16px;
   }
-  .dizme_tm_services .service_list .title h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
-  }
   .dizme_tm_services .service_list .price {
     font-size: 18px;
   }
@@ -3430,14 +3426,15 @@ input[type="number"] {
     width: 100%;
     padding-left: 0px;
   }
-  .dizme_tm_services .service_list .icon {
-    display: none;
+  .dizme_tm_services .service_list .back1 {
+    width: 85px;
   }
   .dizme_tm_services .service_list ul li .list_inner {
     padding: 40px 20px;
   }
-  .dizme_tm_services .service_list .title h3 {
-    font-size: 25px;
+  .dizme_tm_services .service_list .title1 h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 19px;
