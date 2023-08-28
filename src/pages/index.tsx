@@ -8,6 +8,7 @@ import Service from "@/components/service";
 import Testimonial from "@/components/testimonial";
 import News from "@/components/news";
 import BookAppointment from "@/components/book-appointment";
+import Contact from "@/components/contact";
 import { DefaultSeo } from "@/components/seo";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         <Testimonial />
         <News />
         <BookAppointment />
+        <Contact />
       </main>
     </Layout>
   );

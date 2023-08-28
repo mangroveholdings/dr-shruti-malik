@@ -26,7 +26,7 @@ const BookAppointment = () => {
               <img src={data.bgImg2} alt="image" />
             </div>
           </div>
-          <div className="dizme_tm_map wow fadeInUp" data-wow-duration="1s">
+          {/* <div className="dizme_tm_map wow fadeInUp" data-wow-duration="1s">
             <div className="mapouter">
               <div className="gmap_canvas">
                 <iframe
@@ -37,7 +37,7 @@ const BookAppointment = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="brush_1 wow fadeInLeft" data-wow-duration="1s">
           <img src={data.bgImg1} alt="image" />

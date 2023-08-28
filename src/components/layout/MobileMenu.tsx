@@ -52,6 +52,11 @@ const MobileMenu: React.FC = () => {
                 News
               </Link>
             </li>
+            <li>
+              <Link href="#contact" onClick={() => setToggle(false)}>
+                Contact
+              </Link>
+            </li>
             <li className="download_cv">
               <Link href="#book-an-appointment">
                 <span>Book Appointment</span>

@@ -147,6 +147,9 @@ h5 {
 h6 {
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+}
 
 .dizme_tm_all_wrap {
   width: 100%;
@@ -2405,15 +2408,22 @@ h6 {
   clear: both;
   float: left;
   padding-top: 90px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   position: relative;
+}
+
+#contactMe {
+  padding-top: 0px !important;
 }
 .dizme_tm_contact .contact_inner {
   width: 100%;
   display: flex;
   /* margin-top: 80px; */
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   position: relative;
+}
+.dizme_tm_main_title span.contactTitle {
+  padding: 20px 0;
 }
 .dizme_tm_contact .left {
   width: 50%;
@@ -2430,22 +2440,27 @@ h6 {
 }
 .dizme_tm_contact .left .list_inner {
   display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
 }
 .dizme_tm_contact .left .icon {
   width: 88px;
   height: 88px;
   border-radius: 100%;
-  position: relative;
+  /* position: relative; */
 }
 .dizme_tm_contact .left .icon i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
   font-size: 24px;
-}
-.dizme_tm_contact .left .short {
-  padding-left: 25px;
 }
 .dizme_tm_contact .left .short h3 {
   font-size: 30px;
@@ -2577,7 +2592,7 @@ input[type="number"] {
   clear: both;
   float: left;
   background-color: #f2f5fb;
-  padding: 57px 0px 61px 0px;
+  padding: 20px 0px 20px 0px;
 }
 .dizme_tm_copyright .inner {
   width: 100%;
