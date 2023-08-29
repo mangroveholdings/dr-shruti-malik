@@ -571,7 +571,7 @@ a {
   margin-top: 10px;
 }
 .dizme_tm_hero .name h3 {
-  font-size: 85px;
+  font-size: 60px;
 }
 
 .dizme_tm_hero .name h3 span {
@@ -2948,7 +2948,7 @@ input[type="number"] {
     font-size: 25px;
   }
   .dizme_tm_hero .name h3 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .dizme_tm_hero .job p {
     font-size: 19px;
@@ -3205,7 +3205,7 @@ input[type="number"] {
     margin-bottom: 11px;
   }
   .dizme_tm_hero .name h3 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .dizme_tm_hero .job {
     margin-bottom: 23px;
@@ -3561,5 +3561,30 @@ input[type="number"] {
   }
   .dizme_tm_contact {
     margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 376px) {
+  .dizme_tm_hero .name h3 {
+    font-size: 35px;
+  }
+  .dizme_tm_hero .avatar {
+    margin-bottom: 10px;
+  }
+  .dizme_tm_hero .avatar img {
+    max-width: 265px;
+    max-height: 265px;
+  }
+  .dizme_tm_hero .job {
+    margin-bottom: 5px;
+  }
+  .dizme_tm_hero .job p {
+    font-size: 15px;
+  }
+  .dizme_tm_hero .text {
+    margin-bottom: 25px;
+  }
+  .dizme_tm_hero .text p {
+    font-size: 12px;
   }
 }

@@ -26,36 +26,24 @@ const MobileMenu: React.FC = () => {
       </div>
       <div className="dropdown" style={{ display: toggle ? "block" : "none" }}>
         <div className="dropdown_inner">
-          <ul className="anchor_nav">
+          <ul className="anchor_nav" onClick={() => setToggle(false)}>
             <li className="current">
-              <Link href="#home" onClick={() => setToggle(false)}>
-                Home
-              </Link>
+              <Link href="#home">Home</Link>
             </li>
             <li>
-              <Link href="#about" onClick={() => setToggle(false)}>
-                About
-              </Link>
+              <Link href="#about">About</Link>
             </li>
             <li>
-              <Link href="#portfolio" onClick={() => setToggle(false)}>
-                Portfolio
-              </Link>
+              <Link href="#portfolio">Portfolio</Link>
             </li>
             <li>
-              <Link href="#service" onClick={() => setToggle(false)}>
-                Service
-              </Link>
+              <Link href="#service">Service</Link>
             </li>
             <li>
-              <Link href="#news" onClick={() => setToggle(false)}>
-                News
-              </Link>
+              <Link href="#news">News</Link>
             </li>
             <li>
-              <Link href="#contact" onClick={() => setToggle(false)}>
-                Contact
-              </Link>
+              <Link href="#contact">Contact</Link>
             </li>
             <li className="download_cv">
               <Link href="#book-an-appointment">
