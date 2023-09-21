@@ -33,8 +33,13 @@ const Service: React.FC = () => {
                         <span className="icon1">
                           <img className="back1" src={dataItem.icon} alt="image" />
                         </span>
-                        <div className="title1">
-                          <h3>{dataItem.title}</h3>
+                        <div>
+                          <div className="title1">
+                            <h3>{dataItem.title}</h3>
+                          </div>
+                          <div className="text">
+                            <p>{dataItem.description}</p>
+                          </div>
                         </div>
                       </div>
                     </li>

@@ -147,6 +147,9 @@ h5 {
 h6 {
   font-size: 16px;
 }
+a {
+  text-decoration: none;
+}
 
 .dizme_tm_all_wrap {
   width: 100%;
@@ -568,7 +571,7 @@ h6 {
   margin-top: 10px;
 }
 .dizme_tm_hero .name h3 {
-  font-size: 85px;
+  font-size: 60px;
 }
 
 .dizme_tm_hero .name h3 span {
@@ -1640,9 +1643,9 @@ h6 {
   float: left;
   /* margin-bottom: 19px; */
 }
-.dizme_tm_services .service_list .title h3 {
-  font-size: 30px;
-  margin-bottom: 16px;
+.dizme_tm_services .service_list .title1 h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 .dizme_tm_services .service_list .price {
   font-weight: 500;
@@ -2405,15 +2408,22 @@ h6 {
   clear: both;
   float: left;
   padding-top: 90px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
   position: relative;
+}
+
+#contactMe {
+  padding-top: 0px !important;
 }
 .dizme_tm_contact .contact_inner {
   width: 100%;
   display: flex;
   /* margin-top: 80px; */
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   position: relative;
+}
+.dizme_tm_main_title span.contactTitle {
+  padding: 20px 0;
 }
 .dizme_tm_contact .left {
   width: 50%;
@@ -2430,22 +2440,27 @@ h6 {
 }
 .dizme_tm_contact .left .list_inner {
   display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 20px;
 }
 .dizme_tm_contact .left .icon {
   width: 88px;
   height: 88px;
   border-radius: 100%;
-  position: relative;
+  /* position: relative; */
 }
 .dizme_tm_contact .left .icon i {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
   font-size: 24px;
-}
-.dizme_tm_contact .left .short {
-  padding-left: 25px;
 }
 .dizme_tm_contact .left .short h3 {
   font-size: 30px;
@@ -2577,7 +2592,7 @@ input[type="number"] {
   clear: both;
   float: left;
   background-color: #f2f5fb;
-  padding: 57px 0px 61px 0px;
+  padding: 20px 0px 20px 0px;
 }
 .dizme_tm_copyright .inner {
   width: 100%;
@@ -2933,7 +2948,7 @@ input[type="number"] {
     font-size: 25px;
   }
   .dizme_tm_hero .name h3 {
-    font-size: 60px;
+    font-size: 55px;
   }
   .dizme_tm_hero .job p {
     font-size: 19px;
@@ -3004,10 +3019,6 @@ input[type="number"] {
   }
   .dizme_tm_main_title h3 {
     margin-bottom: 16px;
-  }
-  .dizme_tm_services .service_list .title h3 {
-    font-size: 25px;
-    margin-bottom: 10px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 18px;
@@ -3194,7 +3205,7 @@ input[type="number"] {
     margin-bottom: 11px;
   }
   .dizme_tm_hero .name h3 {
-    font-size: 55px;
+    font-size: 50px;
   }
   .dizme_tm_hero .job {
     margin-bottom: 23px;
@@ -3430,14 +3441,15 @@ input[type="number"] {
     width: 100%;
     padding-left: 0px;
   }
-  .dizme_tm_services .service_list .icon {
-    display: none;
+  .dizme_tm_services .service_list .back1 {
+    width: 85px;
   }
   .dizme_tm_services .service_list ul li .list_inner {
     padding: 40px 20px;
   }
-  .dizme_tm_services .service_list .title h3 {
-    font-size: 25px;
+  .dizme_tm_services .service_list .title1 h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
   }
   .dizme_tm_services .service_list .price {
     font-size: 19px;
@@ -3549,5 +3561,30 @@ input[type="number"] {
   }
   .dizme_tm_contact {
     margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 376px) {
+  .dizme_tm_hero .name h3 {
+    font-size: 35px;
+  }
+  .dizme_tm_hero .avatar {
+    margin-bottom: 10px;
+  }
+  .dizme_tm_hero .avatar img {
+    max-width: 265px;
+    max-height: 265px;
+  }
+  .dizme_tm_hero .job {
+    margin-bottom: 5px;
+  }
+  .dizme_tm_hero .job p {
+    font-size: 15px;
+  }
+  .dizme_tm_hero .text {
+    margin-bottom: 25px;
+  }
+  .dizme_tm_hero .text p {
+    font-size: 12px;
   }
 }

@@ -58,12 +58,12 @@ const Hero = () => {
             </div>
             <div className="avatar">
               <div className="image">
-                <Image src={data.img} alt="image" width={445} height={445} />
+                <img src={data.img} alt="image" />
                 {data.skills?.map(
                   (skill, i) =>
                     skill.icon && (
                       <span key={i} className={`skills ${skill.name} anim_moveBottom`}>
-                        <Image src={skill.icon} alt={`Skill: ${skill.name}`} width={50} height={50} />
+                        <img src={skill.icon} alt={`Skill: ${skill.name}`} />
                       </span>
                     )
                 )}

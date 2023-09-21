@@ -30,6 +30,9 @@ const Header: React.FC = () => {
               <li>
                 <Link href="#news">News</Link>
               </li>
+              <li>
+                <Link href="#contact">Contact</Link>
+              </li>
               <li className="download_cv">
                 <Link href="#book-an-appointment">
                   <span>Book Appointment</span>

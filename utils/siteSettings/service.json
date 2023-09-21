@@ -1,50 +1,62 @@
 [
   {
     "title": "Scaling And Polishing",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/ScalingandPolishing.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/ScalingandPolishing.webp",
+    "description": "Experience the freshness of healthy teeth and gums."
   },
   {
     "title": "Root Canal Treatment",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/RootCanalTreatment.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/RootCanalTreatment.webp",
+    "description": "Relieve pain through expert root canal procedures."
   },
   {
-    "title": "Dental Filings",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalFilings.webp"
+    "title": "Dental Fillings",
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalFilings.webp",
+    "description": "Affordable dentistry to restore your smile's brilliance."
   },
   {
-    "title": "Dental Bridges",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalBridges.webp"
+    "title": "Dental Bridges & Crowns",
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalBridges.webp",
+    "description": "Regain royal confidence with our crowns and bridges."
   },
   {
-    "title": "Dental Crowns",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalCrowns.webp"
+    "title": "Wisdom Tooth Extraction",
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-renu-malik-web/service/WisdomToothExtraction.webp",
+    "description": "Loss of your wisdom tooth doesn't have any impact on your intellegence."
   },
   {
     "title": "Dental Implants",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalImplants.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/DentalImplants.webp",
+    "description": "Achieve strength and confidence with transformative implants."
   },
   {
     "title": "Laser Gum De-pigmentation",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/LaserGumDepigmentation.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/LaserGumDepigmentation.webp",
+    "description": "A painless experience to have lighter gums."
   },
   {
     "title": "Veneers Treatment",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/VeneersTreatment.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/VeneersTreatment.webp",
+    "description": "Embrace a new life with a beautifully confident smile."
   },
   {
     "title": "Braces and Aligners",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/BracesandAligners.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/BracesandAligners.webp",
+    "description": "No more hiding that gap, Aligners will close that trap."
   },
   {
     "title": "Paediatric dentistry",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/Paediatricdentistry.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/Paediatricdentistry.webp",
+    "description": "Little teeth are a big deal."
   },
   {
     "title": "Teeth Whitening",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/TeethWhitening.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/TeethWhitening.webp",
+    "description": "An experience you enjoy, a smile you will love."
   },
   {
     "title": "Cosmetic Dentistry",
-    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/CosmeticDentistry.webp"
+    "icon": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service/CosmeticDentistry.webp",
+    "description": "Hundreds of languages around the world but a smile speaks them all."
   }
 ]
