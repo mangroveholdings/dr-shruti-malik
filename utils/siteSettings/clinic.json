@@ -1,0 +1,26 @@
+{
+  "title": "Inside Our Clinic",
+  "subtitle": "A glimpse of the space where care meets comfort.",
+  "photos": [
+    {
+      "src": "/images/doctors/shruti/IMG_6554.JPEG",
+      "caption": "Greeting Area"
+    },
+    {
+      "src": "/images/chambers/endodontic/DSC02473.JPG",
+      "caption": "Modern Treatment Room"
+    },
+    {
+      "src": "/images/doctors/shruti/DSC02430.JPG",
+      "caption": "Digital X-Ray Analysis"
+    },
+    {
+      "src": "/images/chambers/treatment/DSC02468.JPG",
+      "caption": "State-of-the-Art Equipment"
+    },
+    {
+      "src": "/images/chambers/consultation/DSC02483.JPG",
+      "caption": "Private Consultation Suite"
+    }
+  ]
+}

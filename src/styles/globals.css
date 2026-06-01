@@ -3,6 +3,7 @@
 @import "./plugins.css";
 @import "./dark.css";
 @import "./style.css";
+@import "./liquid-glass.css";
 
 @font-face {
   font-family: "feelingPassionate";

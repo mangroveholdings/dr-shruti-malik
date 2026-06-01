@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Rounded square background -->
+  <rect width="64" height="64" rx="14" fill="#091529"/>
+  <!-- Gold border -->
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#d4b88a" stroke-width="1.5" stroke-opacity="0.75"/>
+  <!-- Italic S lettermark -->
+  <text x="32" y="46"
+    text-anchor="middle"
+    font-family="Georgia,'Times New Roman',serif"
+    font-style="italic"
+    font-size="44"
+    fill="#e0c89c">S</text>
+</svg>
