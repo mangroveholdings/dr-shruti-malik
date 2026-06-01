@@ -1,5 +1,12 @@
 {
-  "categories": ["*", "Youtube", "Shorts", "Gallery"],
+  "categories": [
+    "*",
+    "Youtube",
+    "Shorts",
+    "Gallery",
+    "Chambers",
+    "Team"
+  ],
   "bg1": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/brushes/portfolio/1.webp",
   "bg2": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/brushes/portfolio/2.webp",
   "data": [
@@ -8,28 +15,28 @@
       "title": "Dr. Shruti Malik - BDS | MDS Endodontics - Radix Healthcare",
       "link": "https://www.youtube.com/embed/KE-w6Uiz0AQ?autoplay=1",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Dr-Shruti-Malik.webp",
-      "mobileTitle": "Dr. Shruti Malik - BDS | MDS Endodontics - Radix Healthcare"
+      "mobileTitle": "Dr. Shruti Malik - BDS | MDS Endodontics"
     },
     {
       "category": "Youtube",
       "title": "Braces Treatment at Radix Healthcare",
       "link": "https://www.youtube.com/embed/Cb4IwXYbM_s?autoplay=1",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Braces-Treatment.webp",
-      "mobileTitle": "Braces Treatment at Radix Healthcare"
+      "mobileTitle": "Braces Treatment"
     },
     {
       "category": "Youtube",
-      "title": "Our patients share their Dental problems journey with Dr Shruti Malik at Radix Healthcare Hospital.",
+      "title": "Our patients share their Dental problems journey with Dr Shruti Malik",
       "link": "https://www.youtube.com/embed/pSlL9bN3ZB0?autoplay=1",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/patients-share-their-Dental.webp",
-      "mobileTitle": "Our patients share their Dental problems journey with Dr Shruti Malik at Radix Healthcare Hospital."
+      "mobileTitle": "Patient Stories"
     },
     {
       "category": "Youtube",
-      "title": "First impressions are always wonderful Smile confidentially with smile makeover from radixhealthcare",
+      "title": "Smile Makeover at Radix Healthcare",
       "link": "https://www.youtube.com/embed/bMQXpR-p4gE?autoplay=1",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/First-impressions-are-always-wonderful-Smile.webp",
-      "mobileTitle": "First impressions are always wonderful Smile confidentially with smile makeover from radixhealthcare"
+      "mobileTitle": "Smile Makeover"
     },
     {
       "category": "Shorts",
@@ -47,24 +54,129 @@
     },
     {
       "category": "Shorts",
-      "title": "Brightening your gives you confidence unlike anything else.",
+      "title": "Brightening your smile gives you confidence unlike anything else.",
       "link": "https://www.youtube.com/embed/CD7xKzQJ5DM",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/brighting.webp",
-      "mobileTitle": "Brightening your gives you confidence unlike anything else."
+      "mobileTitle": "Brighten your smile"
     },
     {
       "category": "Gallery",
-      "title": "Dr. Shruti Malik",
-      "link": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Shruti.webp",
-      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Shruti.webp",
+      "title": "Dr. Shruti Malik at Work",
+      "link": "/images/doctors/shruti/DSC02454.JPG",
+      "imageSrc": "/images/doctors/shruti/DSC02454.JPG",
+      "mobileTitle": "Dr. Shruti at Work"
+    },
+    {
+      "category": "Gallery",
+      "title": "Dr. Shruti Malik — Consultation",
+      "link": "/images/doctors/shruti/DSC02440.JPG",
+      "imageSrc": "/images/doctors/shruti/DSC02440.JPG",
+      "mobileTitle": "Consultation"
+    },
+    {
+      "category": "Gallery",
+      "title": "Digital X-Ray Analysis",
+      "link": "/images/doctors/shruti/DSC02430.JPG",
+      "imageSrc": "/images/doctors/shruti/DSC02430.JPG",
+      "mobileTitle": "Digital X-Ray Analysis"
+    },
+    {
+      "category": "Gallery",
+      "title": "Dr. Shruti — Writing Notes",
+      "link": "/images/doctors/shruti/DSC02437.JPG",
+      "imageSrc": "/images/doctors/shruti/DSC02437.JPG",
       "mobileTitle": "Dr. Shruti Malik"
     },
     {
       "category": "Gallery",
-      "title": "Dr. Shruti Malik",
-      "link": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Image2023-08-08at12.50.28.webp",
-      "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Image2023-08-08at12.50.28.webp",
-      "mobileTitle": "Dr. Shruti Malik"
+      "title": "Dr. Geetika — Patient Consultation",
+      "link": "/images/doctors/geetika/DSC02520.JPG",
+      "imageSrc": "/images/doctors/geetika/DSC02520.JPG",
+      "mobileTitle": "Dr. Geetika"
+    },
+    {
+      "category": "Gallery",
+      "title": "Dr. Roshini — Dental Treatment",
+      "link": "/images/doctors/roshini/DSC02564.JPG",
+      "imageSrc": "/images/doctors/roshini/DSC02564.JPG",
+      "mobileTitle": "Dr. Roshini"
+    },
+    {
+      "category": "Chambers",
+      "title": "Consultation Room",
+      "link": "/images/chambers/consultation/DSC02483.JPG",
+      "imageSrc": "/images/chambers/consultation/DSC02483.JPG",
+      "mobileTitle": "Consultation Room"
+    },
+    {
+      "category": "Chambers",
+      "title": "Kids' Chamber",
+      "link": "/images/chambers/kids/DSC02469.JPG",
+      "imageSrc": "/images/chambers/kids/DSC02469.JPG",
+      "mobileTitle": "Kids' Chamber"
+    },
+    {
+      "category": "Chambers",
+      "title": "Treatment Suite",
+      "link": "/images/chambers/treatment/DSC02468.JPG",
+      "imageSrc": "/images/chambers/treatment/DSC02468.JPG",
+      "mobileTitle": "Treatment Suite"
+    },
+    {
+      "category": "Chambers",
+      "title": "Endodontic Suite",
+      "link": "/images/chambers/endodontic/DSC02473.JPG",
+      "imageSrc": "/images/chambers/endodontic/DSC02473.JPG",
+      "mobileTitle": "Endodontic Suite"
+    },
+    {
+      "category": "Chambers",
+      "title": "Endodontic Suite — Detail",
+      "link": "/images/chambers/endodontic/DSC02474.JPG",
+      "imageSrc": "/images/chambers/endodontic/DSC02474.JPG",
+      "mobileTitle": "Endodontic Suite"
+    },
+    {
+      "category": "Team",
+      "title": "The Cosmo Dental Team",
+      "link": "/images/team/DSC02518.JPG",
+      "imageSrc": "/images/team/DSC02518.JPG",
+      "mobileTitle": "The Cosmo Dental Team"
+    },
+    {
+      "category": "Team",
+      "title": "Our Team Together",
+      "link": "/images/team/DSC02517.JPG",
+      "imageSrc": "/images/team/DSC02517.JPG",
+      "mobileTitle": "Our Team"
+    },
+    {
+      "category": "Team",
+      "title": "Dr. Annu",
+      "link": "/images/doctors/annu/DSC02447.JPG",
+      "imageSrc": "/images/doctors/annu/DSC02447.JPG",
+      "mobileTitle": "Dr. Annu"
+    },
+    {
+      "category": "Team",
+      "title": "Dr. Shilpa",
+      "link": "/images/doctors/shilpa/DSC02491.JPG",
+      "imageSrc": "/images/doctors/shilpa/DSC02491.JPG",
+      "mobileTitle": "Dr. Shilpa"
+    },
+    {
+      "category": "Team",
+      "title": "Dr. Geetika",
+      "link": "/images/doctors/geetika/DSC02529.JPG",
+      "imageSrc": "/images/doctors/geetika/DSC02529.JPG",
+      "mobileTitle": "Dr. Geetika"
+    },
+    {
+      "category": "Team",
+      "title": "Dr. Roshini",
+      "link": "/images/doctors/roshini/DSC02631.JPG",
+      "imageSrc": "/images/doctors/roshini/DSC02631.JPG",
+      "mobileTitle": "Dr. Roshini"
     }
   ]
 }
