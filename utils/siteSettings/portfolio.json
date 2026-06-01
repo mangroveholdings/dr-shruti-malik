@@ -95,13 +95,6 @@
       "mobileTitle": "Dr. Geetika"
     },
     {
-      "category": "Gallery",
-      "title": "Dr. Roshini — Dental Treatment",
-      "link": "/images/doctors/roshini/DSC02564.JPG",
-      "imageSrc": "/images/doctors/roshini/DSC02564.JPG",
-      "mobileTitle": "Dr. Roshini"
-    },
-    {
       "category": "Chambers",
       "title": "Consultation Room",
       "link": "/images/chambers/consultation/DSC02483.JPG",
@@ -142,13 +135,6 @@
       "link": "/images/team/DSC02518.JPG",
       "imageSrc": "/images/team/DSC02518.JPG",
       "mobileTitle": "The Cosmo Dental Team"
-    },
-    {
-      "category": "Team",
-      "title": "Our Team Together",
-      "link": "/images/team/DSC02517.JPG",
-      "imageSrc": "/images/team/DSC02517.JPG",
-      "mobileTitle": "Our Team"
     },
     {
       "category": "Team",
