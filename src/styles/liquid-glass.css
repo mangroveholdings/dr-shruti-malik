@@ -619,6 +619,7 @@
    Doctors Grid
    ============================================================ */
 .lg-team-group-photo {
+  position: relative;
   width: 100%;
   border-radius: var(--lg-radius-lg);
   overflow: hidden;
@@ -636,7 +637,7 @@
 }
 .lg-doctors-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .lg-doctor-card {
@@ -703,7 +704,20 @@
   letter-spacing: -0.01em;
   line-height: 1.2;
 }
-.lg-doctor-info span {
+.lg-doctor-avatar-placeholder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--lg-bg-3), var(--lg-bg-4));
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(48px, 8vw, 80px);
+  font-style: italic;
+  color: var(--lg-amber-400);
+  font-weight: 500;
+}
+.lg-doctor-role {
   display: inline-flex;
   align-items: center;
   gap: 7px;
@@ -713,7 +727,17 @@
   color: var(--lg-amber-400);
   text-transform: uppercase;
 }
-.lg-doctor-info span::before {
+.lg-doctor-speciality {
+  display: block;
+  font-size: 11px;
+  color: var(--lg-warm-gray);
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  text-transform: none;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+.lg-doctor-role::before {
   content: '';
   display: block;
   width: 16px;
@@ -743,6 +767,7 @@
   border-color: var(--lg-card-border-strong);
 }
 .lg-chamber-img-wrap {
+  position: relative;
   aspect-ratio: 4 / 3;
   overflow: hidden;
 }
@@ -1326,6 +1351,31 @@
   background: var(--lg-grad-cream);
   color: var(--lg-bg-1) !important;
   font-weight: 600;
+}
+.lg-drawer-actions {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin-top: 10px;
+}
+.lg-drawer-action-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 11px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(212, 184, 138, 0.22);
+  background: rgba(15, 28, 52, 0.5);
+  color: var(--lg-cream-soft) !important;
+  font-size: 13px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+.lg-drawer-action-btn:hover {
+  background: rgba(212, 184, 138, 0.1);
+  color: var(--lg-amber-300) !important;
+  border-color: rgba(212, 184, 138, 0.4);
 }
 
 /* ============================================================

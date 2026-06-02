@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import Link from "next/link";
 import { FaArrowRight } from "react-icons/fa";
 import clinic from "@utils/siteSettings/clinic.json";
@@ -8,9 +9,7 @@ const ClinicSection: React.FC = () => (
     <div className="lg-container">
       <div className="lg-section-head">
         <span className="lg-eyebrow-plain">INSIDE OUR CLINIC</span>
-        <h2 className="lg-section-title">
-          A Space Built for <em>Your Comfort</em>
-        </h2>
+        <h2 className="lg-section-title">A Space Built for <em>Your Comfort</em></h2>
         <p className="lg-section-sub">{clinic.subtitle}</p>
       </div>
 
@@ -20,7 +19,14 @@ const ClinicSection: React.FC = () => (
             className={`lg-clinic-bento-item${i === 0 ? " lg-clinic-bento-featured" : ""}`}
             key={photo.src}
           >
-            <img src={photo.src} alt={photo.caption} loading="lazy" />
+            <Image
+              src={photo.src}
+              alt={photo.caption}
+              fill
+              style={{ objectFit: "cover", objectPosition: "center" }}
+              quality={90}
+              sizes="(max-width: 768px) 100vw, (max-width: 1100px) 50vw, 25vw"
+            />
             <div className="lg-clinic-caption">{photo.caption}</div>
           </div>
         ))}

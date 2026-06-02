@@ -1,8 +1,8 @@
 [
   {
     "name": "Dr. Annu",
-    "role": "BDS",
-    "photo": "/images/doctors/annu/DSC02448.JPG",
+    "role": "BDS, MDS",
+    "photo": "/images/doctors/annu/DSC02447.JPG",
     "objectPosition": "center center",
     "brightness": 1.15
   },
@@ -19,9 +19,21 @@
     "objectPosition": "center 20%"
   },
   {
-    "name": "Dr. Roshini",
+    "name": "Dr. Roshni",
     "role": "BDS",
     "photo": "/images/doctors/roshini/DSC02631.JPG",
     "objectPosition": "center 20%"
+  },
+  {
+    "name": "Dr. Rachit Thukral",
+    "role": "BDS, MDS · On Call",
+    "photo": "/images/doctors/rachit/Dr_Rachit_Thukral.webp",
+    "objectPosition": "center 15%"
+  },
+  {
+    "name": "Dr. Mohit Mangla",
+    "role": "MDS · On Call",
+    "photo": "/images/doctors/mohit/8389c3cc-843b-4fb0-8dc0-bc18dc2a8bd5.webp",
+    "objectPosition": "center 15%"
   }
 ]
