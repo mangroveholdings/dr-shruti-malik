@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "sharp": "^0.32.6",
     "@types/gtag.js": "^0.0.19",
     "@types/isotope-layout": "^3.0.9",
     "@types/node": "20.4.9",
@@ -26,6 +25,7 @@
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1",
     "react-visibility-sensor": "^5.1.1",
+    "sharp": "^0.32.6",
     "swiper": "^10.1.0",
     "typescript": "5.1.6",
     "vanilla-tilt": "^1.8.0",
