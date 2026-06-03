@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "sharp": "^0.32.6",
     "@types/gtag.js": "^0.0.19",
     "@types/isotope-layout": "^3.0.9",
     "@types/node": "20.4.9",
