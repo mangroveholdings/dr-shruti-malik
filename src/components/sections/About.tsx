@@ -18,7 +18,7 @@ const AboutSection: React.FC = () => (
       <div className="lg-essential-grid">
         <div className="lg-essential-photo">
           <Image
-            src="/images/doctors/shruti/DSC02454.JPG"
+            src="/images/doctors/shruti/dr-shruti-malik-18.jpg"
             alt={`Dr. ${info.name} at work`}
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}

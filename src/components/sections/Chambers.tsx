@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 const chambers = [
-  { label: "Consultation Room", src: "/images/chambers/consultation/DSC02483.JPG" },
-  { label: "Kids' Chamber",     src: "/images/chambers/kids/DSC02469.JPG" },
-  { label: "Treatment Suite",   src: "/images/chambers/treatment/DSC02468.JPG" },
-  { label: "Endodontic Suite",  src: "/images/chambers/endodontic/DSC02473.JPG" },
+  { label: "Consultation Room", src: "/images/chambers/consultation/consultation-room-05.jpg" },
+  { label: "Kids' Chamber",     src: "/images/chambers/kids/kids-chamber-01.jpg" },
+  { label: "Treatment Suite",   src: "/images/chambers/treatment/treatment-suite-01.jpg" },
+  { label: "Endodontic Suite",  src: "/images/chambers/endodontic/endodontic-suite-01.jpg" },
 ];
 
 const ChambersSection: React.FC = () => (

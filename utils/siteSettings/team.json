@@ -2,26 +2,26 @@
   {
     "name": "Dr. Annu",
     "role": "BDS, MDS",
-    "photo": "/images/doctors/annu/DSC02447.JPG",
+    "photo": "/images/doctors/annu/dr-annu-02.jpg",
     "objectPosition": "center center",
     "brightness": 1.15
   },
   {
     "name": "Dr. Shilpa",
     "role": "BDS",
-    "photo": "/images/doctors/shilpa/DSC02491.JPG",
+    "photo": "/images/doctors/shilpa/dr-shilpa-03.jpg",
     "objectPosition": "center 20%"
   },
   {
     "name": "Dr. Geetika",
     "role": "BDS",
-    "photo": "/images/doctors/geetika/DSC02529.JPG",
+    "photo": "/images/doctors/geetika/dr-geetika-05.jpg",
     "objectPosition": "center 20%"
   },
   {
     "name": "Dr. Roshni",
     "role": "BDS",
-    "photo": "/images/doctors/roshini/DSC02631.JPG",
+    "photo": "/images/doctors/roshini/dr-roshini-17.jpg",
     "objectPosition": "center 20%"
   },
   {

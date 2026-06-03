@@ -35,7 +35,7 @@ const HomeHero: React.FC = () => (
         <div className="lg-hero-right">
           <div className="lg-hero-photo-circle">
             <Image
-              src="/images/doctors/shruti/DSC02440.JPG"
+              src="/images/doctors/shruti/dr-shruti-malik-13.jpg"
               alt={`Dr. ${info.name}`}
               fill
               style={{ objectFit: "cover", objectPosition: "center 15%" }}
