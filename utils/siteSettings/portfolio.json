@@ -5,6 +5,7 @@
     "Shorts",
     "Gallery",
     "Chambers",
+    "Reception",
     "Team"
   ],
   "bg1": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/brushes/portfolio/1.webp",
@@ -15,7 +16,7 @@
       "title": "Dr. Shruti Malik - BDS | MDS Endodontics - Radix Healthcare",
       "link": "https://www.youtube.com/embed/KE-w6Uiz0AQ?autoplay=1",
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/Dr-Shruti-Malik.webp",
-      "mobileTitle": "Dr. Shruti Malik - BDS | MDS Endodontics"
+      "mobileTitle": "Dr. Shruti Malik"
     },
     {
       "category": "Youtube",
@@ -59,110 +60,93 @@
       "imageSrc": "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/portfolio/brighting.webp",
       "mobileTitle": "Brighten your smile"
     },
-    {
-      "category": "Gallery",
-      "title": "Dr. Shruti Malik at Work",
-      "link": "/images/doctors/shruti/dr-shruti-malik-18.jpg",
-      "imageSrc": "/images/doctors/shruti/dr-shruti-malik-18.jpg",
-      "mobileTitle": "Dr. Shruti at Work"
-    },
-    {
-      "category": "Gallery",
-      "title": "Dr. Shruti Malik — Consultation",
-      "link": "/images/doctors/shruti/dr-shruti-malik-13.jpg",
-      "imageSrc": "/images/doctors/shruti/dr-shruti-malik-13.jpg",
-      "mobileTitle": "Consultation"
-    },
-    {
-      "category": "Gallery",
-      "title": "Digital X-Ray Analysis",
-      "link": "/images/doctors/shruti/dr-shruti-malik-06.jpg",
-      "imageSrc": "/images/doctors/shruti/dr-shruti-malik-06.jpg",
-      "mobileTitle": "Digital X-Ray Analysis"
-    },
-    {
-      "category": "Gallery",
-      "title": "Dr. Shruti — Writing Notes",
-      "link": "/images/doctors/shruti/dr-shruti-malik-11.jpg",
-      "imageSrc": "/images/doctors/shruti/dr-shruti-malik-11.jpg",
-      "mobileTitle": "Dr. Shruti Malik"
-    },
-    {
-      "category": "Gallery",
-      "title": "Dr. Geetika — Patient Consultation",
-      "link": "/images/doctors/geetika/dr-geetika-01.jpg",
-      "imageSrc": "/images/doctors/geetika/dr-geetika-01.jpg",
-      "mobileTitle": "Dr. Geetika"
-    },
-    {
-      "category": "Chambers",
-      "title": "Consultation Room",
-      "link": "/images/chambers/consultation/consultation-room-05.jpg",
-      "imageSrc": "/images/chambers/consultation/consultation-room-05.jpg",
-      "mobileTitle": "Consultation Room"
-    },
-    {
-      "category": "Chambers",
-      "title": "Kids' Chamber",
-      "link": "/images/chambers/kids/kids-chamber-01.jpg",
-      "imageSrc": "/images/chambers/kids/kids-chamber-01.jpg",
-      "mobileTitle": "Kids' Chamber"
-    },
-    {
-      "category": "Chambers",
-      "title": "Treatment Suite",
-      "link": "/images/chambers/treatment/treatment-suite-01.jpg",
-      "imageSrc": "/images/chambers/treatment/treatment-suite-01.jpg",
-      "mobileTitle": "Treatment Suite"
-    },
-    {
-      "category": "Chambers",
-      "title": "Endodontic Suite",
-      "link": "/images/chambers/endodontic/endodontic-suite-01.jpg",
-      "imageSrc": "/images/chambers/endodontic/endodontic-suite-01.jpg",
-      "mobileTitle": "Endodontic Suite"
-    },
-    {
-      "category": "Chambers",
-      "title": "Endodontic Suite — Detail",
-      "link": "/images/chambers/endodontic/endodontic-suite-02.jpg",
-      "imageSrc": "/images/chambers/endodontic/endodontic-suite-02.jpg",
-      "mobileTitle": "Endodontic Suite"
-    },
-    {
-      "category": "Team",
-      "title": "The Cosmo Dental Team",
-      "link": "/images/team/team-photo-05.jpg",
-      "imageSrc": "/images/team/team-photo-05.jpg",
-      "mobileTitle": "The Cosmo Dental Team"
-    },
-    {
-      "category": "Team",
-      "title": "Dr. Annu",
-      "link": "/images/doctors/annu/dr-annu-02.jpg",
-      "imageSrc": "/images/doctors/annu/dr-annu-02.jpg",
-      "mobileTitle": "Dr. Annu"
-    },
-    {
-      "category": "Team",
-      "title": "Dr. Shilpa",
-      "link": "/images/doctors/shilpa/dr-shilpa-03.jpg",
-      "imageSrc": "/images/doctors/shilpa/dr-shilpa-03.jpg",
-      "mobileTitle": "Dr. Shilpa"
-    },
-    {
-      "category": "Team",
-      "title": "Dr. Geetika",
-      "link": "/images/doctors/geetika/dr-geetika-05.jpg",
-      "imageSrc": "/images/doctors/geetika/dr-geetika-05.jpg",
-      "mobileTitle": "Dr. Geetika"
-    },
-    {
-      "category": "Team",
-      "title": "Dr. Roshini",
-      "link": "/images/doctors/roshini/dr-roshini-17.jpg",
-      "imageSrc": "/images/doctors/roshini/dr-roshini-17.jpg",
-      "mobileTitle": "Dr. Roshini"
-    }
+
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-01.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-01.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-02.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-02.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-03.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-03.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-04.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-04.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-05.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-05.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Digital X-Ray Analysis", "link": "/images/doctors/shruti/dr-shruti-malik-06.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-06.jpg", "mobileTitle": "Digital X-Ray" },
+    { "category": "Gallery", "title": "Dr. Shruti — Writing Notes", "link": "/images/doctors/shruti/dr-shruti-malik-11.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-11.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik — Consultation", "link": "/images/doctors/shruti/dr-shruti-malik-13.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-13.jpg", "mobileTitle": "Consultation" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-16.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-16.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-17.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-17.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik at Work", "link": "/images/doctors/shruti/dr-shruti-malik-18.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-18.jpg", "mobileTitle": "Dr. Shruti at Work" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-19.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-19.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-22.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-22.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-24.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-24.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-25.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-25.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-26.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-26.jpg", "mobileTitle": "Dr. Shruti Malik" },
+    { "category": "Gallery", "title": "Dr. Shruti Malik", "link": "/images/doctors/shruti/dr-shruti-malik-31.jpg", "imageSrc": "/images/doctors/shruti/dr-shruti-malik-31.jpg", "mobileTitle": "Dr. Shruti Malik" },
+
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-01.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-01.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-02.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-02.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-03.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-03.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-04.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-04.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-05.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-05.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-06.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-06.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-07.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-07.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-08.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-08.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Consultation Room", "link": "/images/chambers/consultation/consultation-room-09.jpg", "imageSrc": "/images/chambers/consultation/consultation-room-09.jpg", "mobileTitle": "Consultation Room" },
+    { "category": "Chambers", "title": "Endodontic Suite", "link": "/images/chambers/endodontic/endodontic-suite-02.jpg", "imageSrc": "/images/chambers/endodontic/endodontic-suite-02.jpg", "mobileTitle": "Endodontic Suite" },
+    { "category": "Chambers", "title": "Kids' Chamber", "link": "/images/chambers/kids/kids-chamber-01.jpg", "imageSrc": "/images/chambers/kids/kids-chamber-01.jpg", "mobileTitle": "Kids' Chamber" },
+    { "category": "Chambers", "title": "Kids' Chamber", "link": "/images/chambers/kids/kids-chamber-03.jpg", "imageSrc": "/images/chambers/kids/kids-chamber-03.jpg", "mobileTitle": "Kids' Chamber" },
+    { "category": "Chambers", "title": "Kids' Chamber", "link": "/images/chambers/kids/kids-chamber-05.jpg", "imageSrc": "/images/chambers/kids/kids-chamber-05.jpg", "mobileTitle": "Kids' Chamber" },
+    { "category": "Chambers", "title": "Kids' Chamber", "link": "/images/chambers/kids/kids-chamber-06.jpg", "imageSrc": "/images/chambers/kids/kids-chamber-06.jpg", "mobileTitle": "Kids' Chamber" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-01.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-01.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-02.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-02.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-04.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-04.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-05.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-05.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-08.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-08.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-10.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-10.jpg", "mobileTitle": "Treatment Suite" },
+    { "category": "Chambers", "title": "Treatment Suite", "link": "/images/chambers/treatment/treatment-suite-13.jpg", "imageSrc": "/images/chambers/treatment/treatment-suite-13.jpg", "mobileTitle": "Treatment Suite" },
+
+    { "category": "Reception", "title": "Reception Area", "link": "/images/receptions/reception-01.jpg", "imageSrc": "/images/receptions/reception-01.jpg", "mobileTitle": "Reception" },
+    { "category": "Reception", "title": "Reception Area", "link": "/images/receptions/reception-02.jpg", "imageSrc": "/images/receptions/reception-02.jpg", "mobileTitle": "Reception" },
+
+    { "category": "Team", "title": "The Radix Cosmo Dental Team", "link": "/images/team/full-team-2.png", "imageSrc": "/images/team/full-team-2.png", "mobileTitle": "Full Team" },
+    { "category": "Team", "title": "The Cosmo Dental Team", "link": "/images/team/team-photo-01.jpg", "imageSrc": "/images/team/team-photo-01.jpg", "mobileTitle": "Our Team" },
+    { "category": "Team", "title": "The Cosmo Dental Team", "link": "/images/team/team-photo-02.jpg", "imageSrc": "/images/team/team-photo-02.jpg", "mobileTitle": "Our Team" },
+    { "category": "Team", "title": "The Cosmo Dental Team", "link": "/images/team/team-photo-03.jpg", "imageSrc": "/images/team/team-photo-03.jpg", "mobileTitle": "Our Team" },
+    { "category": "Team", "title": "The Cosmo Dental Team", "link": "/images/team/team-photo-04.jpg", "imageSrc": "/images/team/team-photo-04.jpg", "mobileTitle": "Our Team" },
+    { "category": "Team", "title": "The Cosmo Dental Team", "link": "/images/team/team-photo-05.jpg", "imageSrc": "/images/team/team-photo-05.jpg", "mobileTitle": "Our Team" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-01.jpg", "imageSrc": "/images/doctors/annu/dr-annu-01.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-02.jpg", "imageSrc": "/images/doctors/annu/dr-annu-02.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-03.jpg", "imageSrc": "/images/doctors/annu/dr-annu-03.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-04.jpg", "imageSrc": "/images/doctors/annu/dr-annu-04.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-06.jpg", "imageSrc": "/images/doctors/annu/dr-annu-06.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Annu", "link": "/images/doctors/annu/dr-annu-07.jpg", "imageSrc": "/images/doctors/annu/dr-annu-07.jpg", "mobileTitle": "Dr. Annu" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-01.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-01.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-02.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-02.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-04.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-04.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-07.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-07.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-08.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-08.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-10.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-10.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-13.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-13.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-14.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-14.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-15.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-15.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Geetika", "link": "/images/doctors/geetika/dr-geetika-17.jpg", "imageSrc": "/images/doctors/geetika/dr-geetika-17.jpg", "mobileTitle": "Dr. Geetika" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-02.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-02.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-03.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-03.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-04.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-04.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-05.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-05.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-07.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-07.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-09.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-09.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-13.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-13.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-16.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-16.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Roshini", "link": "/images/doctors/roshini/dr-roshini-17.jpg", "imageSrc": "/images/doctors/roshini/dr-roshini-17.jpg", "mobileTitle": "Dr. Roshini" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-03.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-03.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-05.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-05.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-06.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-06.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-08.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-08.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-09.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-09.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-11.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-11.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-12.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-12.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-13.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-13.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Dr. Shilpa", "link": "/images/doctors/shilpa/dr-shilpa-14.jpg", "imageSrc": "/images/doctors/shilpa/dr-shilpa-14.jpg", "mobileTitle": "Dr. Shilpa" },
+    { "category": "Team", "title": "Our Staff", "link": "/images/staff/staff-01.jpg", "imageSrc": "/images/staff/staff-01.jpg", "mobileTitle": "Our Staff" },
+    { "category": "Team", "title": "Our Staff", "link": "/images/staff/staff-02.jpg", "imageSrc": "/images/staff/staff-02.jpg", "mobileTitle": "Our Staff" },
+    { "category": "Team", "title": "Our Staff", "link": "/images/staff/staff-03.jpg", "imageSrc": "/images/staff/staff-03.jpg", "mobileTitle": "Our Staff" },
+    { "category": "Team", "title": "Our Staff", "link": "/images/staff/staff-04.jpg", "imageSrc": "/images/staff/staff-04.jpg", "mobileTitle": "Our Staff" }
   ]
 }

@@ -17,6 +17,9 @@ const categoryLabels: Record<string, string> = {
   Youtube: "YouTube",
   Shorts: "Shorts",
   Gallery: "Gallery",
+  Chambers: "Chambers",
+  Reception: "Reception",
+  Team: "Team",
 };
 
 export default function GalleryPage() {
