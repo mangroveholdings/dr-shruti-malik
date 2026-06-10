@@ -9,7 +9,8 @@ import Services from "@/components/sections/Services";
 import Clinic from "@/components/sections/Clinic";
 import Chambers from "@/components/sections/Chambers";
 import Media from "@/components/sections/Media";
-import Testimonials from "@/components/sections/Testimonials";
+import dynamic from "next/dynamic";
+const Testimonials = dynamic(() => import("@/components/sections/Testimonials"), { ssr: false });
 import Booking from "@/components/sections/Booking";
 import Contact from "@/components/sections/Contact";
 

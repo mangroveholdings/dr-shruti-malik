@@ -637,8 +637,14 @@
 }
 .lg-doctors-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(12, 1fr);
   gap: 24px;
+}
+.lg-doctors-grid .lg-doctor-card {
+  grid-column: span 4;
+}
+.lg-doctors-grid .lg-doctor-card:nth-child(n+4) {
+  grid-column: span 3;
 }
 .lg-doctor-card {
   position: relative;
