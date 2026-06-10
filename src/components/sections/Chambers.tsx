@@ -2,10 +2,19 @@ import React from "react";
 import Image from "next/image";
 
 const chambers = [
-  { label: "Consultation Room", src: "/images/chambers/consultation/consultation-room-05.jpg" },
-  { label: "Kids' Chamber",     src: "/images/chambers/kids/kids-chamber-01.jpg" },
-  { label: "Treatment Suite",   src: "/images/chambers/treatment/treatment-suite-01.jpg" },
-  { label: "Endodontic Suite",  src: "/images/chambers/endodontic/endodontic-suite-02.webp" },
+  {
+    label: "Consultation Room",
+    src: "/images/chambers/consultation/consultation-room-05.jpg",
+  },
+  { label: "Kids' Chamber", src: "/images/chambers/kids/kids-chamber-01.jpg" },
+  {
+    label: "Treatment Suite",
+    src: "/images/chambers/treatment/treatment-suite-01.jpg",
+  },
+  {
+    label: "Endodontic Suite",
+    src: "/images/chambers/endodontic/endodontic-suite-01.webp",
+  },
 ];
 
 const ChambersSection: React.FC = () => (
@@ -13,9 +22,12 @@ const ChambersSection: React.FC = () => (
     <div className="lg-container">
       <div className="lg-section-head">
         <span className="lg-eyebrow-plain">OUR TREATMENT CHAMBERS</span>
-        <h2 className="lg-section-title">State-of-the-Art <em>Spaces</em></h2>
+        <h2 className="lg-section-title">
+          State-of-the-Art <em>Spaces</em>
+        </h2>
         <p className="lg-section-sub">
-          Four dedicated treatment chambers — each designed for comfort, privacy, and precision care.
+          Four dedicated treatment chambers — each designed for comfort,
+          privacy, and precision care.
         </p>
       </div>
 
@@ -29,7 +41,7 @@ const ChambersSection: React.FC = () => (
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
                 quality={90}
-              sizes="(max-width: 768px) 50vw, 25vw"
+                sizes="(max-width: 768px) 50vw, 25vw"
               />
             </div>
             <div className="lg-chamber-label">{c.label}</div>
