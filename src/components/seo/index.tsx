@@ -68,15 +68,115 @@ const jsonLd = {
         "Endodontics",
         "General Dentistry",
         "Cosmetic Dentistry",
+        "Orthodontics",
+        "Paediatric Dentistry",
+        "Implantology",
       ],
+      hasOfferCatalog: {
+        "@type": "OfferCatalog",
+        name: "Dental Services",
+        itemListElement: [
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Painless Root Canal Treatment",
+              alternateName: ["RCT", "Endodontic Treatment"],
+              description:
+                "Pain-free root canal treatment in East Delhi using advanced rotary endodontics and single-sitting RCT by specialist endodontist Dr. Shruti Malik.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Laser Dental Filling",
+              alternateName: ["Laser Cavity Treatment", "Laser Tooth Filling"],
+              description:
+                "Painless laser dental fillings for cavities in East Delhi. Minimally invasive laser dentistry for tooth decay treatment.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Invisalign & Dental Braces",
+              alternateName: [
+                "Clear Aligners",
+                "Invisible Braces",
+                "Orthodontic Treatment",
+                "Metal Braces",
+              ],
+              description:
+                "Straighten teeth with Invisalign clear aligners or metal/ceramic braces in East Delhi. Expert orthodontic treatment at Radix Cosmo Dental, Nirman Vihar.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Paediatric Dentistry",
+              alternateName: ["Kids Dentist", "Children Dental Treatment", "Pediatric Dentistry"],
+              description:
+                "Gentle, child-friendly dental care in East Delhi. Tooth decay treatment, fluoride application, sealants and more for infants, children and teenagers.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Dental Implants",
+              alternateName: [
+                "Tooth Implant",
+                "Single Tooth Implant",
+                "Full Mouth Implants",
+              ],
+              description:
+                "Permanent tooth replacement with dental implants in East Delhi. Single, multiple and full-mouth implants by expert implantologist at Radix Cosmo Dental.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Teeth Whitening",
+              description:
+                "Professional teeth whitening and bleaching treatment in East Delhi for a brighter, whiter smile.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "MedicalProcedure",
+              name: "Dental Crowns & Bridges",
+              description:
+                "High-quality ceramic and zirconia crowns and bridges to restore damaged or missing teeth in East Delhi.",
+              procedureType: "https://schema.org/TherapeuticProcedure",
+            },
+          },
+        ],
+      },
       hasMap: info.contact.addressLink,
       areaServed: [
-        { "@type": "City", name: "East Delhi" },
         { "@type": "City", name: "Delhi" },
+        { "@type": "City", name: "East Delhi" },
+        { "@type": "City", name: "New Delhi" },
         { "@type": "Neighborhood", name: "Nirman Vihar" },
         { "@type": "Neighborhood", name: "Vikas Marg" },
         { "@type": "Neighborhood", name: "Preet Vihar" },
         { "@type": "Neighborhood", name: "Pandav Nagar" },
+        { "@type": "Neighborhood", name: "Laxmi Nagar" },
+        { "@type": "Neighborhood", name: "Shakarpur" },
+        { "@type": "Neighborhood", name: "Krishna Nagar" },
+        { "@type": "Neighborhood", name: "Mayur Vihar" },
+        { "@type": "Neighborhood", name: "Patparganj" },
+        { "@type": "Neighborhood", name: "IP Extension" },
       ],
       sameAs: [
         "https://www.facebook.com/shruti08malik/",
@@ -108,13 +208,24 @@ const jsonLd = {
       alumniOf: "King George's Medical University, Lucknow",
       knowsAbout: [
         "Root Canal Treatment",
+        "Painless Root Canal",
+        "Single Sitting RCT",
         "Dental Implants",
+        "Single Tooth Implant",
+        "Full Mouth Implants",
         "Endodontics",
         "Cosmetic Dentistry",
+        "Invisalign Clear Aligners",
         "Braces and Aligners",
+        "Orthodontics",
+        "Laser Dental Filling",
+        "Laser Dentistry",
+        "Paediatric Dentistry",
+        "Kids Dentistry",
         "Teeth Whitening",
         "Dental Crowns",
-        "Paediatric Dentistry",
+        "Veneers",
+        "Laser Gum Depigmentation",
       ],
       sameAs: [
         "https://www.linkedin.com/in/drshrutimalik/",
@@ -122,10 +233,64 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://drshrutimalik.com/#faq",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is root canal treatment painful in East Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "No. At Radix Cosmo Dental, Dr. Shruti Malik uses advanced rotary endodontics and local anaesthesia to make root canal treatment completely painless. Most patients report the procedure feels no different from a routine filling.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is laser dental filling?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Laser dental filling is a minimally invasive technique where a dental laser removes tooth decay without the drill noise or vibration. It is faster, virtually painless, and requires little to no anaesthesia.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Radix Cosmo Dental offer Invisalign clear aligners?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. We offer Invisalign clear aligners and traditional metal/ceramic braces for teeth straightening at our East Delhi clinic. Dr. Shruti Malik will recommend the best option based on your teeth alignment needs.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is there a kids dentist near Nirman Vihar East Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Radix Cosmo Dental, Nirman Vihar provides gentle paediatric dental care for children of all ages, including cavity treatment, fluoride application, dental sealants and habit-breaking appliances.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much do dental implants cost in East Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Dental implant cost at Radix Cosmo Dental depends on the number of implants and material chosen. We offer affordable single-tooth, multiple and full-mouth implants with EMI options. Book a consultation with Dr. Shruti Malik for an exact quote.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What dental services does Dr. Shruti Malik offer?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Dr. Shruti Malik offers root canal treatment, laser fillings, dental implants, Invisalign and braces, paediatric dentistry, teeth whitening, crowns, bridges, veneers, laser gum treatment, and cosmetic dentistry at Radix Cosmo Dental, Nirman Vihar, East Delhi.",
+          },
+        },
+      ],
+    },
+    {
       "@type": "WebSite",
       "@id": "https://drshrutimalik.com/#website",
       url: "https://drshrutimalik.com",
-      name: "Dr. Shruti Malik — Dentist & Endodontist East Delhi",
+      name: "Dr. Shruti Malik — Best Dentist in Delhi & East Delhi | Endodontist",
       description: siteSettings.description,
       inLanguage: "en-IN",
       potentialAction: {

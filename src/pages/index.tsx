@@ -18,8 +18,8 @@ export default function Home() {
   return (
     <div className="lg-root">
       <NextSeo
-        title="Dr. Shruti Malik — Best Dentist & Endodontist in East Delhi | Radix Cosmo Dental"
-        description="Dr. Shruti Malik is a leading Endodontist & Dentist in East Delhi at Radix Cosmo Dental, Nirman Vihar. Root canal, implants, braces, whitening & cosmetic dentistry. BDS, MDS with 10+ years experience. Book online."
+        title="Dr. Shruti Malik — Best Dentist in Delhi & East Delhi | Endodontist | Radix Cosmo Dental"
+        description="Dr. Shruti Malik — Best Dentist in Delhi & East Delhi. Painless root canal, laser fillings, dental implants, Invisalign/braces, kids/paediatric dentistry & cosmetic dentistry at Radix Cosmo Dental, Nirman Vihar. BDS, MDS with 10+ years experience. Book online."
         canonical="https://drshrutimalik.com/"
       />
       <Nav />
