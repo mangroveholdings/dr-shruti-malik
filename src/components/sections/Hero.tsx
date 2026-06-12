@@ -35,8 +35,8 @@ const HomeHero: React.FC = () => (
         <div className="lg-hero-right">
           <div className="lg-hero-photo-circle">
             <Image
-              src="/images/doctors/shruti/dr-shruti-malik-13.jpg"
-              alt={`Dr. ${info.name}`}
+              src="/images/doctors/shruti/dr-shruti-malik-13.webp"
+              alt="Dr. Shruti Malik — BDS, MDS Endodontist and Director at Radix Cosmo Dental, Nirman Vihar, East Delhi"
               fill
               style={{ objectFit: "cover", objectPosition: "center 15%" }}
               priority

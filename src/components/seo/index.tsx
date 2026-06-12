@@ -7,7 +7,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": ["Dentist", "LocalBusiness", "MedicalBusiness"],
+      "@type": ["Dentist", "LocalBusiness", "MedicalBusiness", "MedicalOrganization"],
       "@id": "https://drshrutimalik.com/#practice",
       name: "Radix Cosmo Dental — Dr. Shruti Malik",
       alternateName: [
@@ -333,7 +333,6 @@ export const DefaultSeo = () => {
         }}
         additionalMetaTags={[
           { name: "viewport", content: "width=device-width, initial-scale=1" },
-          { name: "keywords", content: siteSettings.keywords },
           { name: "author", content: "Dr. Shruti Malik" },
           { name: "robots", content: "index, follow" },
           { name: "googlebot", content: "index, follow" },

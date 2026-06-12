@@ -9,6 +9,9 @@ import Services from "@/components/sections/Services";
 import Clinic from "@/components/sections/Clinic";
 import Chambers from "@/components/sections/Chambers";
 import Media from "@/components/sections/Media";
+import FAQ from "@/components/sections/FAQ";
+import SmileGallery from "@/components/sections/SmileGallery";
+import EmergencyBanner from "@/components/sections/EmergencyBanner";
 import dynamic from "next/dynamic";
 const Testimonials = dynamic(() => import("@/components/sections/Testimonials"), { ssr: false });
 import Booking from "@/components/sections/Booking";
@@ -32,6 +35,9 @@ export default function Home() {
       <Team />
       <Media />
       <Testimonials />
+      <SmileGallery />
+      <FAQ />
+      <EmergencyBanner />
       <Booking />
       <Contact />
       <Footer />

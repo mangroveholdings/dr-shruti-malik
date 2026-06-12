@@ -1,0 +1,495 @@
+export interface TreatmentFAQ  { q: string; a: string }
+export interface TreatmentStep { title: string; desc: string }
+
+export interface Treatment {
+  slug: string;
+  title: string;
+  icon: string;
+  metaTitle: string;
+  metaDescription: string;
+  keywords: string;
+  headline: string;
+  subheadline: string;
+  overview: string;
+  highlights: { label: string; value: string }[];
+  benefits: string[];
+  steps: TreatmentStep[];
+  faqs: TreatmentFAQ[];
+  relatedSlugs: string[];
+}
+
+const BASE = "https://cdn.radixhealthcare.org/v1/assets/dr-shruti-web/service";
+const LOC  = "Nirman Vihar, East Delhi";
+
+const treatments: Treatment[] = [
+  {
+    slug: "root-canal-treatment",
+    title: "Root Canal Treatment",
+    icon: `${BASE}/RootCanalTreatment.webp`,
+    metaTitle: "Painless Root Canal Treatment in East Delhi | RCT | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Get painless root canal treatment (RCT) in Nirman Vihar, East Delhi by Dr. Shruti Malik — BDS, MDS Endodontist. Single-sitting RCT with advanced rotary endodontics. Book online.",
+    keywords: "root canal treatment East Delhi, painless RCT Nirman Vihar, root canal specialist East Delhi, endodontic treatment Delhi, single sitting RCT",
+    headline: "Painless Root Canal Treatment in East Delhi",
+    subheadline: "Same-day relief from toothache with advanced rotary endodontics — performed by a specialist endodontist.",
+    overview: "Root canal treatment (RCT) removes infected or damaged pulp tissue from inside the tooth, relieves pain instantly, and saves the natural tooth from extraction. At Radix Cosmo Dental, Dr. Shruti Malik — an MDS Endodontist with 10+ years of experience — uses advanced rotary instruments and apex locators to complete the procedure with precision, often in a single sitting. Local anaesthesia ensures you feel no pain during treatment.",
+    highlights: [
+      { label: "Procedure Time",  value: "45–90 min" },
+      { label: "Sittings",        value: "1–2" },
+      { label: "Anaesthesia",     value: "Local" },
+      { label: "Recovery",        value: "1–2 days" },
+    ],
+    benefits: [
+      "Immediate relief from severe toothache",
+      "Preserves your natural tooth — no extraction needed",
+      "Single-sitting option available",
+      "Microscope-assisted precision by a certified Endodontist",
+      "Minimal discomfort — patients report it feels like a routine filling",
+    ],
+    steps: [
+      { title: "Diagnosis & X-Ray",   desc: "Digital X-ray to assess infection depth and canal anatomy." },
+      { title: "Local Anaesthesia",   desc: "The area is numbed completely before any instrument is introduced." },
+      { title: "Canal Cleaning",      desc: "Rotary files remove infected pulp; canals are cleaned and shaped." },
+      { title: "Disinfection",        desc: "Antimicrobial irrigants eliminate remaining bacteria." },
+      { title: "Filling & Sealing",   desc: "Canals are filled with biocompatible gutta-percha and sealed." },
+      { title: "Crown Placement",     desc: "A ceramic crown is placed in a separate appointment to restore strength." },
+    ],
+    faqs: [
+      { q: "Is root canal treatment painful?", a: "No. With modern rotary techniques and local anaesthesia, the procedure is as comfortable as getting a filling. Most patients are surprised by how painless it is." },
+      { q: "Can RCT be done in one sitting?", a: "Yes. In most cases of uncomplicated infections, single-sitting RCT is possible at Radix Cosmo Dental, allowing you to leave the same day with a filled and sealed tooth." },
+      { q: "How long does the tooth last after RCT?", a: "A root canal treated tooth with a well-fitted crown can last a lifetime with proper oral hygiene and regular dental check-ups." },
+      { q: "What happens if I delay RCT?", a: "Delaying treatment allows the infection to spread to surrounding teeth and bone, which may eventually lead to tooth loss and more complex treatment." },
+    ],
+    relatedSlugs: ["dental-fillings", "dental-bridges-crowns", "scaling-and-polishing"],
+  },
+
+  {
+    slug: "dental-implants",
+    title: "Dental Implants",
+    icon: `${BASE}/DentalImplants.webp`,
+    metaTitle: "Dental Implants in East Delhi | Single & Full Mouth | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Permanent tooth replacement with dental implants in Nirman Vihar, East Delhi. Single tooth, multiple & full-mouth implants with EMI options. Book a free consultation with Dr. Shruti Malik.",
+    keywords: "dental implants East Delhi, tooth implant Nirman Vihar, dental implant cost Delhi, full mouth implants East Delhi, single tooth implant Delhi",
+    headline: "Permanent Dental Implants in East Delhi",
+    subheadline: "The gold standard for missing teeth — a natural-looking, lifetime solution anchored directly into the jawbone.",
+    overview: "Dental implants are titanium fixtures surgically placed into the jawbone to act as artificial tooth roots. Once healed, a ceramic crown is attached on top, giving you a tooth that looks, feels, and functions exactly like a natural one. At Radix Cosmo Dental, we offer single-tooth implants, multiple implants, and full-mouth implant solutions (All-on-4, All-on-6) with flexible EMI options.",
+    highlights: [
+      { label: "Success Rate",    value: "98%+" },
+      { label: "Durability",      value: "Lifetime" },
+      { label: "Healing Time",    value: "3–6 months" },
+      { label: "EMI Available",   value: "Yes" },
+    ],
+    benefits: [
+      "Looks, feels, and functions like a natural tooth",
+      "Prevents bone loss in the jaw",
+      "No impact on adjacent healthy teeth (unlike bridges)",
+      "Easy to clean — brush and floss normally",
+      "Lifetime solution with proper care",
+    ],
+    steps: [
+      { title: "Consultation & 3D Scan", desc: "Bone density is assessed via digital X-ray or CBCT scan to plan implant placement." },
+      { title: "Implant Placement",      desc: "The titanium implant is placed into the jawbone under local anaesthesia." },
+      { title: "Healing (Osseointegration)", desc: "Over 3–6 months the implant fuses with the bone for a permanent foundation." },
+      { title: "Abutment Fitting",       desc: "A connector piece is attached to the implant." },
+      { title: "Crown Placement",        desc: "A custom ceramic crown is fixed to complete your new tooth." },
+    ],
+    faqs: [
+      { q: "How much do dental implants cost in East Delhi?", a: "Implant cost varies based on brand, bone condition, and number of implants. We offer flexible EMI options. Book a free consultation at Radix Cosmo Dental for an exact quote." },
+      { q: "Am I a candidate for dental implants?", a: "Most adults with sufficient bone density are candidates. A CBCT scan during your consultation will confirm suitability. Conditions like diabetes or smoking are manageable with proper planning." },
+      { q: "Is the implant surgery painful?", a: "The procedure is performed under local anaesthesia and is very well tolerated. Post-operative discomfort is mild and managed with standard pain relief." },
+      { q: "How long do dental implants last?", a: "With proper care, dental implants can last a lifetime. The crown on top typically lasts 10–15 years before needing replacement." },
+    ],
+    relatedSlugs: ["dental-bridges-crowns", "cosmetic-dentistry", "scaling-and-polishing"],
+  },
+
+  {
+    slug: "teeth-whitening",
+    title: "Teeth Whitening",
+    icon: `${BASE}/TeethWhitening.webp`,
+    metaTitle: "Professional Teeth Whitening in East Delhi | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Professional teeth whitening & bleaching in Nirman Vihar, East Delhi. Instant visible results in 45–60 minutes. Safe, supervised whitening by Dr. Shruti Malik. Book online.",
+    keywords: "teeth whitening East Delhi, dental bleaching Nirman Vihar, professional teeth whitening Delhi, smile whitening East Delhi",
+    headline: "Professional Teeth Whitening in East Delhi",
+    subheadline: "Brighten your smile by several shades in a single clinic visit — safe, supervised, and instantly visible.",
+    overview: "Professional teeth whitening at Radix Cosmo Dental uses clinically proven bleaching agents applied under controlled conditions to safely lighten tooth enamel. Unlike over-the-counter products, in-clinic whitening is supervised by Dr. Shruti Malik, ensuring even results without damaging enamel or gum tissue. Results are visible immediately after a 45–60 minute session.",
+    highlights: [
+      { label: "Session Time",    value: "45–60 min" },
+      { label: "Shades Lighter",  value: "4–8 shades" },
+      { label: "Results Last",    value: "6–12 months" },
+      { label: "Sittings",        value: "1" },
+    ],
+    benefits: [
+      "Visibly whiter teeth in a single session",
+      "Safe, supervised use of professional-grade whitening agents",
+      "Even, consistent results across all teeth",
+      "No damage to enamel when done professionally",
+      "Instant confidence boost for weddings, events, or interviews",
+    ],
+    steps: [
+      { title: "Shade Assessment",    desc: "Current shade is recorded using a shade guide to measure improvement after treatment." },
+      { title: "Gum Protection",      desc: "A protective barrier is applied to the gums before whitening begins." },
+      { title: "Gel Application",     desc: "Professional-grade whitening gel is applied to all visible teeth." },
+      { title: "Activation",          desc: "LED light activates the gel, accelerating the whitening process." },
+      { title: "Rinse & Review",      desc: "Gel is removed, shade is re-assessed and results are compared." },
+    ],
+    faqs: [
+      { q: "Is teeth whitening safe?", a: "Yes, when performed by a dental professional. Dr. Shruti Malik uses clinically approved agents and takes measures to protect gum tissue throughout the process." },
+      { q: "How long do whitening results last?", a: "Results typically last 6–12 months. Avoiding staining foods and drinks (tea, coffee, red wine) and maintaining good oral hygiene extends results." },
+      { q: "Will my teeth become sensitive after whitening?", a: "Mild, temporary sensitivity is possible for 24–48 hours. We use desensitising agents to minimise this and advise on aftercare." },
+      { q: "Can everyone get teeth whitening?", a: "Whitening is suitable for most adults. It is not recommended for pregnant women, those with severe sensitivity, or teeth with significant decay. Dr. Shruti will assess your suitability at consultation." },
+    ],
+    relatedSlugs: ["veneers-treatment", "cosmetic-dentistry", "scaling-and-polishing"],
+  },
+
+  {
+    slug: "braces-and-aligners",
+    title: "Braces and Aligners",
+    icon: `${BASE}/BracesandAligners.webp`,
+    metaTitle: "Invisalign & Dental Braces in East Delhi | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Straighten teeth with Invisalign clear aligners or metal/ceramic braces in Nirman Vihar, East Delhi. Expert orthodontic treatment by Dr. Rachit Thakral, Invisalign specialist. Book online.",
+    keywords: "Invisalign East Delhi, braces Nirman Vihar, clear aligners Delhi, orthodontic treatment East Delhi, invisible braces Delhi",
+    headline: "Invisalign & Braces in East Delhi",
+    subheadline: "Achieve a straighter smile with clear aligners or traditional braces — expert orthodontic care in Nirman Vihar.",
+    overview: "At Radix Cosmo Dental, orthodontic treatments are handled by Dr. Rachit Thakral (BDS, MDS Orthodontics & Dentofacial Orthopedics, Invisalign Certified). Whether you choose Invisalign clear aligners for a discreet option or traditional metal/ceramic braces for complex cases, you receive a fully customised treatment plan with regular progress monitoring.",
+    highlights: [
+      { label: "Invisalign",        value: "Available" },
+      { label: "Treatment Time",    value: "6–24 months" },
+      { label: "Specialist",        value: "MDS Orthodontist" },
+      { label: "Options",           value: "Metal / Ceramic / Clear" },
+    ],
+    benefits: [
+      "Invisalign clear aligners — virtually invisible, removable",
+      "Ceramic braces — tooth-coloured for a discreet look",
+      "Traditional metal braces for complex or severe misalignments",
+      "Treated by a certified Invisalign provider and MDS Orthodontist",
+      "Customised treatment plans with digital smile preview",
+    ],
+    steps: [
+      { title: "Orthodontic Assessment", desc: "Teeth, bite, and jaw alignment are evaluated with X-rays and photographs." },
+      { title: "Treatment Planning",     desc: "A custom plan is created. For Invisalign, a digital 3D preview shows your expected result." },
+      { title: "Fitting",               desc: "Braces are bonded to teeth, or your first set of Invisalign trays is provided." },
+      { title: "Regular Adjustments",   desc: "Monthly check-ups for braces; aligner sets changed every 1–2 weeks for Invisalign." },
+      { title: "Retention",             desc: "After active treatment, retainers maintain your new alignment." },
+    ],
+    faqs: [
+      { q: "What is the difference between Invisalign and braces?", a: "Invisalign uses a series of clear, removable plastic trays. Traditional braces use brackets and wires. Invisalign is more discreet and comfortable; braces are better for severe misalignment cases." },
+      { q: "How long does orthodontic treatment take?", a: "Mild to moderate cases: 6–12 months. Complex cases: 18–24 months. Your orthodontist will give a precise timeline after examination." },
+      { q: "Can adults get braces or Invisalign?", a: "Absolutely. A growing number of our orthodontic patients are adults. There is no upper age limit for orthodontic treatment." },
+      { q: "Is Invisalign available at your clinic?", a: "Yes. Dr. Rachit Thakral at Radix Cosmo Dental is a certified Invisalign provider. Book a consultation for a complimentary digital smile preview." },
+    ],
+    relatedSlugs: ["veneers-treatment", "cosmetic-dentistry", "paediatric-dentistry"],
+  },
+
+  {
+    slug: "dental-fillings",
+    title: "Dental Fillings",
+    icon: `${BASE}/DentalFilings.webp`,
+    metaTitle: "Laser Dental Fillings in East Delhi | Painless Cavities | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Painless laser dental fillings for cavities at Radix Cosmo Dental, Nirman Vihar, East Delhi. Tooth-coloured composite fillings. No drill, no pain. Book an appointment online.",
+    keywords: "dental fillings East Delhi, laser filling Nirman Vihar, tooth filling Delhi, cavity treatment East Delhi, composite filling Delhi",
+    headline: "Painless Laser Dental Fillings in East Delhi",
+    subheadline: "No drill, no noise, no pain — modern cavity treatment using laser technology at Radix Cosmo Dental.",
+    overview: "Dental fillings restore teeth damaged by decay and prevent further deterioration. At Radix Cosmo Dental, we offer laser cavity preparation — a drill-free technique that removes decay with precision and minimal discomfort. Tooth-coloured composite resin fillings blend seamlessly with natural teeth for a result that is both functional and aesthetic.",
+    highlights: [
+      { label: "Technique",       value: "Laser / Drill-free" },
+      { label: "Material",        value: "Tooth-coloured composite" },
+      { label: "Procedure Time",  value: "20–45 min" },
+      { label: "Anaesthesia",     value: "Optional / Minimal" },
+    ],
+    benefits: [
+      "Drill-free laser option — no vibration or noise",
+      "Tooth-coloured filling is virtually invisible",
+      "Minimally invasive — healthy tooth structure is preserved",
+      "Strong, durable material that lasts years",
+      "Quick procedure — most fillings done in one visit",
+    ],
+    steps: [
+      { title: "Cavity Detection",  desc: "Digital X-ray and diagnostic tools identify the extent of decay." },
+      { title: "Decay Removal",     desc: "Laser or drill carefully removes only the decayed portion." },
+      { title: "Shade Matching",    desc: "Composite resin shade is matched precisely to your tooth colour." },
+      { title: "Filling & Bonding", desc: "Composite is placed in layers and cured with UV light." },
+      { title: "Polishing",         desc: "Filling is shaped and polished for a natural appearance and correct bite." },
+    ],
+    faqs: [
+      { q: "What is laser dental filling?", a: "Laser filling uses a dental laser to remove decay instead of a traditional drill. It is faster, quieter, virtually painless, and often requires no anaesthesia." },
+      { q: "How long do dental fillings last?", a: "Composite fillings typically last 5–10 years with proper care. Avoiding very hard foods and maintaining good oral hygiene extends their lifespan." },
+      { q: "Are tooth-coloured fillings as strong as silver ones?", a: "Modern composite resins are highly durable and suitable for most cavities. For very large restorations or back molars under heavy chewing load, a crown may be recommended instead." },
+      { q: "Can I eat immediately after a filling?", a: "With composite fillings, you can eat as soon as the anaesthetic wears off (if used). Avoid very hot, cold, or hard foods for the first 24 hours." },
+    ],
+    relatedSlugs: ["root-canal-treatment", "scaling-and-polishing", "dental-bridges-crowns"],
+  },
+
+  {
+    slug: "dental-bridges-crowns",
+    title: "Dental Bridges & Crowns",
+    icon: `${BASE}/DentalBridges.webp`,
+    metaTitle: "Dental Crowns & Bridges in East Delhi | Ceramic & Zirconia | Dr. Shruti Malik",
+    metaDescription: "High-quality ceramic and zirconia dental crowns and bridges in Nirman Vihar, East Delhi. Restore damaged or missing teeth. Book a consultation with Dr. Shruti Malik.",
+    keywords: "dental crown East Delhi, dental bridge Nirman Vihar, zirconia crown Delhi, ceramic crown East Delhi, tooth crown Delhi",
+    headline: "Ceramic & Zirconia Crowns and Bridges in East Delhi",
+    subheadline: "Restore damaged or missing teeth with precision-crafted crowns and bridges that look and feel completely natural.",
+    overview: "Dental crowns cap and protect damaged, cracked, or root canal treated teeth. Bridges replace one or more missing teeth by anchoring an artificial tooth to adjacent crowns. At Radix Cosmo Dental, we use high-strength zirconia and all-ceramic materials that match your natural tooth colour perfectly, fabricated with CAD/CAM precision for an exact fit.",
+    highlights: [
+      { label: "Materials",       value: "Zirconia / Ceramic" },
+      { label: "Sittings",        value: "2" },
+      { label: "Durability",      value: "10–15 years" },
+      { label: "Appearance",      value: "Natural tooth colour" },
+    ],
+    benefits: [
+      "Zirconia crowns — strongest material, completely metal-free",
+      "All-ceramic — ideal aesthetics for front teeth",
+      "CAD/CAM precision for a perfect fit the first time",
+      "Bridges eliminate the gap left by missing teeth",
+      "Protects root canal treated teeth from fracture",
+    ],
+    steps: [
+      { title: "Tooth Preparation",  desc: "Tooth is trimmed to create space for the crown or bridge framework." },
+      { title: "Impressions",        desc: "Digital or physical impressions capture the exact shape of your prepared teeth." },
+      { title: "Temporary Crown",    desc: "A temporary crown protects the tooth while the permanent one is fabricated." },
+      { title: "Crown Fabrication",  desc: "Permanent crown or bridge is crafted in a dental laboratory (5–7 days)." },
+      { title: "Cementation",        desc: "Permanent crown is tried in, adjusted, and permanently cemented in place." },
+    ],
+    faqs: [
+      { q: "What is the difference between a crown and a veneer?", a: "A crown covers the entire tooth (360°) and is used for damaged or heavily restored teeth. A veneer covers only the front surface and is used purely for aesthetic improvement." },
+      { q: "How long do crowns last?", a: "Zirconia and ceramic crowns typically last 10–15 years or longer with good oral hygiene and regular check-ups." },
+      { q: "Is the crown procedure painful?", a: "No. The procedure is done under local anaesthesia. A temporary crown ensures your prepared tooth is protected and comfortable between appointments." },
+      { q: "Can a dental bridge replace multiple missing teeth?", a: "Yes. Bridges can replace one to three consecutive missing teeth by using the adjacent healthy teeth as anchors. For larger gaps, implant-supported bridges are recommended." },
+    ],
+    relatedSlugs: ["dental-implants", "veneers-treatment", "root-canal-treatment"],
+  },
+
+  {
+    slug: "veneers-treatment",
+    title: "Veneers Treatment",
+    icon: `${BASE}/VeneersTreatment.webp`,
+    metaTitle: "Dental Veneers in East Delhi | Porcelain & Composite | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Transform your smile with dental veneers in Nirman Vihar, East Delhi. Porcelain and composite veneers for stained, chipped, or uneven teeth. Book a smile design consultation.",
+    keywords: "dental veneers East Delhi, porcelain veneers Nirman Vihar, smile makeover Delhi, composite veneers East Delhi, teeth veneers Delhi",
+    headline: "Dental Veneers & Smile Makeover in East Delhi",
+    subheadline: "Wafer-thin porcelain shells that transform stained, chipped, or uneven teeth into a picture-perfect smile.",
+    overview: "Dental veneers are ultra-thin ceramic or composite shells bonded to the front surface of teeth to improve colour, shape, size, and alignment. They are the centrepiece of a smile makeover and can correct multiple aesthetic concerns in as few as two appointments. At Radix Cosmo Dental, smile designs are planned digitally so you can preview your result before treatment begins.",
+    highlights: [
+      { label: "Options",         value: "Porcelain / Composite" },
+      { label: "Sittings",        value: "2" },
+      { label: "Tooth Removal",   value: "Minimal to none" },
+      { label: "Durability",      value: "10–15 years (porcelain)" },
+    ],
+    benefits: [
+      "Correct colour, shape, length, and alignment simultaneously",
+      "Minimal tooth reduction — tooth-conserving procedure",
+      "Porcelain veneers resist staining better than natural enamel",
+      "Digital smile design — see your result before treatment",
+      "Instant confidence boost for special occasions",
+    ],
+    steps: [
+      { title: "Smile Design Consultation", desc: "Photographs and digital tools are used to design your ideal smile." },
+      { title: "Minimal Preparation",       desc: "A thin layer of enamel (0.3–0.5 mm) is removed to accommodate the veneer." },
+      { title: "Impressions",               desc: "Precise impressions are taken and sent to the dental laboratory." },
+      { title: "Temporary Veneers",         desc: "Temporary veneers protect teeth while permanent ones are fabricated." },
+      { title: "Bonding",                   desc: "Permanent veneers are tried in, adjusted, and bonded permanently." },
+    ],
+    faqs: [
+      { q: "What problems can veneers fix?", a: "Veneers correct stained or discoloured teeth, chipped or broken teeth, minor misalignment, gaps between teeth, and worn-down enamel." },
+      { q: "Are veneers permanent?", a: "Because a thin layer of enamel is removed, the tooth will always need a veneer or crown going forward. The veneer itself is not permanent and will need replacement after 10–15 years." },
+      { q: "Do veneers look natural?", a: "Yes. Porcelain veneers mimic the light-reflecting properties of natural enamel. Experienced dentists customise the shape and shade so veneers are indistinguishable from natural teeth." },
+      { q: "What is the difference between veneers and teeth whitening?", a: "Whitening only changes colour. Veneers change colour, shape, size, and alignment. If you have chips, gaps, or severe staining, veneers deliver a more comprehensive result." },
+    ],
+    relatedSlugs: ["teeth-whitening", "cosmetic-dentistry", "dental-bridges-crowns"],
+  },
+
+  {
+    slug: "paediatric-dentistry",
+    title: "Paediatric Dentistry",
+    icon: `${BASE}/Paediatricdentistry.webp`,
+    metaTitle: "Kids Dentist in Nirman Vihar East Delhi | Paediatric Dentistry | Dr. Shruti Malik",
+    metaDescription: "Gentle, child-friendly dental care in Nirman Vihar, East Delhi. Cavity treatment, fluoride, sealants for kids. Paediatric specialist Dr. Soumya Taneja. Book an appointment.",
+    keywords: "kids dentist East Delhi, paediatric dentistry Nirman Vihar, children dental clinic Delhi, kids tooth decay East Delhi, child dentist Nirman Vihar",
+    headline: "Child-Friendly Dentistry in East Delhi",
+    subheadline: "A gentle, fun environment that makes dental visits a positive experience for your child — from first tooth to teen years.",
+    overview: "Radix Cosmo Dental has a dedicated paediatric chamber and a specialist paediatric dentist — Dr. Soumya Taneja (BDS, MDS Pedodontics & Preventive Dentistry). We handle everything from the first dental visit to cavity treatment, fluoride application, dental sealants, space maintainers, and habit-breaking appliances in a child-friendly environment designed to build positive dental habits for life.",
+    highlights: [
+      { label: "Specialist",      value: "MDS Pedodontist" },
+      { label: "Age Group",       value: "Infants to Teens" },
+      { label: "Chamber",         value: "Dedicated Kids Room" },
+      { label: "Approach",        value: "Gentle & Fun" },
+    ],
+    benefits: [
+      "Dedicated paediatric dental specialist on the team",
+      "Child-friendly chamber with a welcoming environment",
+      "Painless cavity treatments using minimal invasive techniques",
+      "Fluoride and sealant applications to prevent decay",
+      "Habit-breaking appliances for thumb-sucking and tongue-thrusting",
+    ],
+    steps: [
+      { title: "First Visit & Assessment", desc: "Gentle examination of teeth, gums, and bite. Parents are counselled on oral hygiene for children." },
+      { title: "Cleaning & Fluoride",      desc: "Professional cleaning and fluoride application to strengthen enamel." },
+      { title: "Sealants (if needed)",     desc: "Thin protective coatings applied to back molars to prevent cavities." },
+      { title: "Treatment",               desc: "Cavities are treated with tooth-coloured fillings under gentle local anaesthesia if required." },
+      { title: "Orthodontic Monitoring",  desc: "Early assessment of bite and jaw development to plan any future orthodontic intervention." },
+    ],
+    faqs: [
+      { q: "At what age should I bring my child for the first dental visit?", a: "The first dental visit should be within 6 months of the first tooth erupting or by the child's first birthday, whichever comes first." },
+      { q: "My child is afraid of the dentist. Can you help?", a: "Yes. Our team is trained in child behaviour management techniques. The kids' chamber at Radix Cosmo Dental is designed to be fun and non-threatening. We work at the child's pace." },
+      { q: "Are baby teeth important if they fall out anyway?", a: "Absolutely. Baby teeth hold space for permanent teeth. Cavities in baby teeth can affect underlying permanent teeth and cause pain, infection, and eating difficulties." },
+      { q: "How often should my child see the dentist?", a: "Every 6 months for check-up and cleaning. Children with higher cavity risk may benefit from more frequent visits — your dentist will advise." },
+    ],
+    relatedSlugs: ["scaling-and-polishing", "dental-fillings", "braces-and-aligners"],
+  },
+
+  {
+    slug: "scaling-and-polishing",
+    title: "Scaling & Polishing",
+    icon: `${BASE}/ScalingandPolishing.webp`,
+    metaTitle: "Dental Scaling & Polishing in East Delhi | Teeth Cleaning | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Professional dental scaling and polishing (teeth cleaning) in Nirman Vihar, East Delhi. Remove tartar, plaque, and stains. Prevent gum disease. Book online.",
+    keywords: "dental scaling East Delhi, teeth cleaning Nirman Vihar, scaling polishing Delhi, tartar removal East Delhi, gum treatment Delhi",
+    headline: "Professional Dental Scaling & Polishing in East Delhi",
+    subheadline: "Remove years of tartar and plaque build-up — the foundation of a healthy mouth and fresh breath.",
+    overview: "Professional dental scaling removes hardened tartar (calculus) from tooth surfaces and below the gumline that cannot be removed by brushing alone. Polishing follows to smooth surfaces and remove stains, leaving teeth clean and bright. Regular scaling every 6 months is the single most effective way to prevent gum disease (periodontitis), which is the leading cause of tooth loss in adults.",
+    highlights: [
+      { label: "Procedure Time",  value: "30–45 min" },
+      { label: "Frequency",       value: "Every 6 months" },
+      { label: "Anaesthesia",     value: "Not required" },
+      { label: "Result",          value: "Cleaner, fresher teeth" },
+    ],
+    benefits: [
+      "Removes tartar and plaque that brushing cannot reach",
+      "Prevents and treats early gum disease (gingivitis)",
+      "Eliminates bad breath caused by bacterial build-up",
+      "Removes surface stains for a brighter smile",
+      "Quick, comfortable, and no anaesthesia needed",
+    ],
+    steps: [
+      { title: "Oral Examination",  desc: "Gum health, cavity risk, and tartar deposits are assessed before cleaning." },
+      { title: "Ultrasonic Scaling", desc: "An ultrasonic scaler removes hardened tartar from all tooth surfaces." },
+      { title: "Hand Scaling",      desc: "Fine hand instruments clean below the gumline for thorough tartar removal." },
+      { title: "Polishing",         desc: "Rotating cups with prophylactic paste polish enamel and remove surface stains." },
+      { title: "Fluoride (optional)", desc: "A fluoride application may be recommended for cavity prevention." },
+    ],
+    faqs: [
+      { q: "Does scaling damage tooth enamel?", a: "No. When performed by a professional using correct technique, scaling does not damage enamel. It only removes deposits on the tooth surface." },
+      { q: "Will my teeth become sensitive after scaling?", a: "Some temporary sensitivity is normal for 2–3 days as gums adjust. This resolves on its own. Using a sensitive toothpaste helps." },
+      { q: "How often should I get scaling done?", a: "Every 6 months for most people. Those with active gum disease or a history of heavy tartar build-up may need cleaning every 3–4 months." },
+      { q: "Can scaling help with bad breath?", a: "Yes. Bad breath (halitosis) is often caused by bacteria in tartar and plaque. Scaling removes these deposits and significantly improves breath freshness." },
+    ],
+    relatedSlugs: ["dental-fillings", "teeth-whitening", "laser-gum-depigmentation"],
+  },
+
+  {
+    slug: "wisdom-tooth-extraction",
+    title: "Wisdom Tooth Extraction",
+    icon: "https://cdn.radixhealthcare.org/v1/assets/dr-renu-malik-web/service/WisdomToothExtraction.webp",
+    metaTitle: "Wisdom Tooth Extraction in East Delhi | Painless Removal | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Painless wisdom tooth extraction in Nirman Vihar, East Delhi. Surgical and simple extractions by expert oral surgeon Dr. Mohit Mangla. Book online at Radix Cosmo Dental.",
+    keywords: "wisdom tooth extraction East Delhi, wisdom tooth removal Nirman Vihar, impacted wisdom tooth Delhi, tooth extraction East Delhi",
+    headline: "Painless Wisdom Tooth Extraction in East Delhi",
+    subheadline: "Expert surgical removal of impacted or problematic wisdom teeth — quick recovery, minimum discomfort.",
+    overview: "Wisdom teeth (third molars) often lack space to erupt properly, becoming impacted and causing pain, infection, or crowding. At Radix Cosmo Dental, wisdom tooth extractions — including complex surgical cases — are handled by Dr. Mohit Mangla (BDS, MDS Oral & Maxillofacial Surgery). Advanced imaging ensures precise planning and the procedure is performed under local anaesthesia for a comfortable experience.",
+    highlights: [
+      { label: "Surgeon",         value: "MDS Oral Surgeon" },
+      { label: "Procedure Time",  value: "20–60 min" },
+      { label: "Anaesthesia",     value: "Local" },
+      { label: "Recovery",        value: "3–7 days" },
+    ],
+    benefits: [
+      "Relieves persistent pain and jaw discomfort caused by impaction",
+      "Prevents infection and damage to adjacent teeth",
+      "Performed by a qualified oral and maxillofacial surgeon",
+      "Both simple and complex surgical extractions available",
+      "Post-operative care instructions provided for fast recovery",
+    ],
+    steps: [
+      { title: "X-Ray Assessment",    desc: "Panoramic or digital X-ray maps the exact position of the wisdom tooth and nearby nerves." },
+      { title: "Treatment Planning",  desc: "Simple or surgical extraction is planned based on tooth position and depth of impaction." },
+      { title: "Anaesthesia",         desc: "Local anaesthesia fully numbs the area. Sedation is available for anxious patients." },
+      { title: "Extraction",          desc: "Tooth is carefully removed. Stitches may be placed for surgical cases." },
+      { title: "Recovery Care",       desc: "Written aftercare instructions are provided; follow-up scheduled to check healing." },
+    ],
+    faqs: [
+      { q: "Do all wisdom teeth need to be removed?", a: "No. Wisdom teeth that are fully erupted, healthy, and causing no problems may not need removal. Dr. Shruti will assess your X-rays and advise whether extraction is necessary." },
+      { q: "How painful is wisdom tooth extraction?", a: "The procedure itself is performed under local anaesthesia and should not be painful. Post-operative soreness is manageable with standard pain relief for 2–4 days." },
+      { q: "How long is recovery after wisdom tooth removal?", a: "Most patients return to normal activities within 3–5 days. Complete healing of the socket takes 4–6 weeks, but discomfort resolves much sooner." },
+      { q: "What should I eat after extraction?", a: "Soft foods like yoghurt, dal, soups, and mashed foods for the first 3–4 days. Avoid hard, crunchy, or very hot foods and do not use a straw (suction can dislodge the blood clot)." },
+    ],
+    relatedSlugs: ["dental-fillings", "scaling-and-polishing", "dental-bridges-crowns"],
+  },
+
+  {
+    slug: "laser-gum-depigmentation",
+    title: "Laser Gum De-pigmentation",
+    icon: `${BASE}/LaserGumDepigmentation.webp`,
+    metaTitle: "Laser Gum Depigmentation in East Delhi | Pink Gums | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Laser gum depigmentation for pink, healthy-looking gums in Nirman Vihar, East Delhi. Painless procedure with instant results by Dr. Shruti Malik. Book online.",
+    keywords: "gum depigmentation East Delhi, laser gum treatment Nirman Vihar, pink gums treatment Delhi, dark gums treatment East Delhi, gum bleaching Delhi",
+    headline: "Laser Gum De-pigmentation in East Delhi",
+    subheadline: "Remove dark patches from gums in a single, painless laser session — for a healthier, more confident smile.",
+    overview: "Gum pigmentation (dark or black gums) is a common, harmless condition caused by excess melanin deposits. Laser gum de-pigmentation is a quick, minimally invasive procedure that uses a dental laser to remove the pigmented outer layer of gum tissue, revealing the healthy pink tissue beneath. The procedure takes 30–45 minutes and results are visible immediately, with no stitches and minimal recovery.",
+    highlights: [
+      { label: "Technique",       value: "Laser (no scalpel)" },
+      { label: "Procedure Time",  value: "30–45 min" },
+      { label: "Stitches",        value: "None" },
+      { label: "Results",         value: "Immediate" },
+    ],
+    benefits: [
+      "Painless — no scalpel, no stitches",
+      "Immediate results in a single visit",
+      "Minimal bleeding and faster healing compared to traditional methods",
+      "Boosts confidence when smiling or speaking",
+      "Safe for all skin types and gum conditions",
+    ],
+    steps: [
+      { title: "Gum Assessment",    desc: "The extent and pattern of pigmentation is evaluated." },
+      { title: "Local Anaesthesia", desc: "Gums are numbed with topical and/or injectable anaesthesia." },
+      { title: "Laser Treatment",   desc: "Dental laser removes pigmented gum tissue layer by layer with precision." },
+      { title: "Post-care",         desc: "Medicated gel may be applied to soothe the area." },
+      { title: "Review",            desc: "Follow-up at 1–2 weeks to assess healing. A touch-up may be scheduled if needed." },
+    ],
+    faqs: [
+      { q: "Is laser gum depigmentation permanent?", a: "Results are long-lasting. Pigmentation can recur over several years as melanin re-deposits, but re-treatment is straightforward." },
+      { q: "Is the procedure painful?", a: "No. Local anaesthesia is applied before treatment. Most patients experience only mild warmth during the procedure and minimal soreness for 1–2 days after." },
+      { q: "Are dark gums a health concern?", a: "No. Gum pigmentation is purely cosmetic and does not indicate any disease. However, sudden changes in gum colour should always be checked by a dentist." },
+      { q: "How soon can I see results?", a: "Results are visible immediately after the procedure. Gums may appear slightly lighter immediately and settle into the final colour within 2–4 weeks as healing completes." },
+    ],
+    relatedSlugs: ["scaling-and-polishing", "cosmetic-dentistry", "teeth-whitening"],
+  },
+
+  {
+    slug: "cosmetic-dentistry",
+    title: "Cosmetic Dentistry",
+    icon: `${BASE}/CosmeticDentistry.webp`,
+    metaTitle: "Cosmetic Dentistry in East Delhi | Smile Makeover | Dr. Shruti Malik — Radix Cosmo Dental",
+    metaDescription: "Full smile makeover and cosmetic dental treatments in Nirman Vihar, East Delhi. Veneers, whitening, implants, braces & more by Dr. Shruti Malik. Book a smile design consultation.",
+    keywords: "cosmetic dentistry East Delhi, smile makeover Nirman Vihar, smile design Delhi, aesthetic dentistry East Delhi, smile transformation Delhi",
+    headline: "Cosmetic Dentistry & Smile Makeover in East Delhi",
+    subheadline: "A complete transformation of your smile — customised to your face, personality, and goals.",
+    overview: "Cosmetic dentistry at Radix Cosmo Dental combines multiple aesthetic treatments into a personalised smile makeover plan. From a simple whitening session to a full smile redesign with veneers, implants, and gum corrections, Dr. Shruti Malik designs each treatment plan using digital smile design tools so you see your expected result before any treatment begins.",
+    highlights: [
+      { label: "Digital Design",    value: "Preview before treatment" },
+      { label: "Treatments",        value: "All under one roof" },
+      { label: "Specialist",        value: "10+ years experience" },
+      { label: "Customised",        value: "For your face & smile" },
+    ],
+    benefits: [
+      "Digital smile design — see your result before committing",
+      "All cosmetic treatments available under one roof",
+      "Personalised to your facial features and aesthetic goals",
+      "Combines whitening, veneers, implants, and aligners as needed",
+      "Trusted by 5,000+ patients with a 99% satisfaction rate",
+    ],
+    steps: [
+      { title: "Smile Analysis",      desc: "Photographs, X-rays, and a detailed consultation to understand your goals." },
+      { title: "Digital Smile Design", desc: "A digital preview of your proposed smile is created and reviewed with you." },
+      { title: "Treatment Plan",       desc: "A sequenced, prioritised plan is prepared across the required procedures." },
+      { title: "Staged Treatment",     desc: "Procedures are carried out in the planned sequence, with regular reviews." },
+      { title: "Final Review",         desc: "Final photographs and bite check to ensure complete satisfaction." },
+    ],
+    faqs: [
+      { q: "What is included in a smile makeover?", a: "A smile makeover is fully customised. It may include teeth whitening, veneers, crowns, dental implants, orthodontics, gum contouring, and depigmentation — depending on what your smile needs." },
+      { q: "How much does a smile makeover cost?", a: "Cost depends entirely on the treatments included. A full breakdown is provided at your consultation after the digital smile design is complete. EMI options are available." },
+      { q: "How long does a smile makeover take?", a: "Simple makeovers (whitening + veneers) can be completed in 2–3 appointments over 2 weeks. Comprehensive makeovers involving implants or orthodontics take 6–18 months." },
+      { q: "Can I see what my smile will look like before treatment?", a: "Yes. Digital smile design at Radix Cosmo Dental gives you a visual preview on-screen before any treatment begins." },
+    ],
+    relatedSlugs: ["veneers-treatment", "teeth-whitening", "dental-implants"],
+  },
+];
+
+export default treatments;

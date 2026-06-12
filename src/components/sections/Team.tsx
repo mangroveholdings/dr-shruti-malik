@@ -19,8 +19,8 @@ const TeamSection: React.FC = () => (
       {/* Group photo */}
       <div className="lg-team-group-photo">
         <Image
-          src="/images/team/full-team-2.png"
-          alt="The Cosmo Dental Team"
+          src="/images/team/full-team-2.webp"
+          alt="The specialist dental team at Radix Cosmo Dental, Nirman Vihar, East Delhi"
           fill
           style={{ objectFit: "cover", objectPosition: "center 30%" }}
           sizes="100vw"
@@ -36,7 +36,7 @@ const TeamSection: React.FC = () => (
               {doctor.photo ? (
                 <Image
                   src={doctor.photo}
-                  alt={doctor.name}
+                  alt={`${doctor.name} — ${doctor.role}${(doctor as any).speciality ? `, ${(doctor as any).speciality}` : ""} at Radix Cosmo Dental, Nirman Vihar, East Delhi`}
                   fill
                   style={{
                     objectFit: "cover",

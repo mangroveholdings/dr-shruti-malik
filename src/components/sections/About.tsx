@@ -18,8 +18,8 @@ const AboutSection: React.FC = () => (
       <div className="lg-essential-grid">
         <div className="lg-essential-photo">
           <Image
-            src="/images/doctors/shruti/dr-shruti-malik-18.jpg"
-            alt={`Dr. ${info.name} at work`}
+            src="/images/doctors/shruti/dr-shruti-malik-18.webp"
+            alt="Dr. Shruti Malik performing a dental consultation at Radix Cosmo Dental, Nirman Vihar, East Delhi"
             fill
             style={{ objectFit: "cover", objectPosition: "center" }}
             quality={90}

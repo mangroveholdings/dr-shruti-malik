@@ -134,7 +134,7 @@ export default function GalleryPage() {
                     }}
                     aria-label={item.title}
                   >
-                    <img src={item.imageSrc} alt={item.title} loading="lazy" />
+                    <img src={item.imageSrc} alt={(item as any).alt ?? item.title} loading="lazy" />
 
                     <div className="lg-gallery-card-cat-badge">{categoryLabels[item.category] ?? item.category}</div>
 

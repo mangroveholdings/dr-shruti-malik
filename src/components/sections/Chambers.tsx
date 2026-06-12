@@ -4,16 +4,23 @@ import Image from "next/image";
 const chambers = [
   {
     label: "Consultation Room",
-    src: "/images/chambers/consultation/consultation-room-05.jpg",
+    src: "/images/chambers/consultation/consultation-room-05.webp",
+    alt: "Private patient consultation room at Radix Cosmo Dental, Nirman Vihar, East Delhi",
   },
-  { label: "Kids' Chamber", src: "/images/chambers/kids/kids-chamber-01.jpg" },
+  {
+    label: "Kids' Chamber",
+    src: "/images/chambers/kids/kids-chamber-01.webp",
+    alt: "Child-friendly paediatric dental chamber at Radix Cosmo Dental, Nirman Vihar, East Delhi",
+  },
   {
     label: "Treatment Suite",
-    src: "/images/chambers/treatment/treatment-suite-01.jpg",
+    src: "/images/chambers/treatment/treatment-suite-01.webp",
+    alt: "Advanced dental treatment suite with modern equipment at Radix Cosmo Dental, East Delhi",
   },
   {
     label: "Endodontic Suite",
     src: "/images/chambers/endodontic/endodontic-suite-01.webp",
+    alt: "State-of-the-art endodontic treatment suite for root canal therapy at Radix Cosmo Dental, East Delhi",
   },
 ];
 
@@ -37,7 +44,7 @@ const ChambersSection: React.FC = () => (
             <div className="lg-chamber-img-wrap">
               <Image
                 src={c.src}
-                alt={c.label}
+                alt={c.alt}
                 fill
                 style={{ objectFit: "cover", objectPosition: "center" }}
                 quality={90}

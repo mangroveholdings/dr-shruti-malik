@@ -3,5 +3,16 @@
   "name": "Dr. Shruti Malik",
   "description": "Dr. Shruti Malik — Best Dentist in Delhi & East Delhi. Painless root canal, laser fillings, dental implants, Invisalign & braces, kids/paediatric dentistry, teeth whitening & cosmetic dentistry at Radix Cosmo Dental, Nirman Vihar. BDS, MDS Endodontics, 10+ years experience. Book online.",
   "ogImageUrl": "/Shruti.png",
-  "keywords": "best dentist in delhi, best dental clinic in delhi, best dentist east delhi, top dentist delhi, dentist near me delhi, dental clinic near me, best endodontist in delhi, dentist nirman vihar, root canal treatment east delhi, dental implants east delhi, endodontist delhi, Dr Shruti Malik dentist, Radix Cosmo Dental, dental clinic nirman vihar, teeth whitening east delhi, dental braces east delhi, cosmetic dentistry delhi, painless root canal delhi, painless root canal east delhi, best root canal specialist delhi, root canal without pain, painless RCT delhi, laser dental filling delhi, laser filling east delhi, laser cavity treatment delhi, laser dentistry nirman vihar, invisalign delhi, invisalign east delhi, best invisalign doctor delhi, clear aligners delhi, invisible braces east delhi, orthodontist east delhi, orthodontist delhi, teeth aligners nirman vihar, braces treatment delhi, metal braces east delhi, kids dentist east delhi, best paediatric dentist delhi, paediatric dentist delhi, children dentist nirman vihar, pediatric dental clinic east delhi, child tooth care delhi, kids teeth treatment delhi, dental implants delhi, best dental implants delhi, single tooth implant east delhi, implant dentist nirman vihar, tooth replacement delhi, full mouth implants delhi, best implant dentist delhi, dental implant cost delhi, best cosmetic dentist delhi, smile makeover delhi, teeth whitening delhi, veneers delhi, dental crowns delhi"
+  "pageSeo": {
+    "home":           ["best dentist east delhi", "dentist nirman vihar", "Radix Cosmo Dental"],
+    "root-canal":     ["root canal treatment east delhi", "painless root canal delhi", "endodontist delhi"],
+    "laser-filling":  ["laser dental filling delhi", "laser cavity treatment delhi", "laser dentistry nirman vihar"],
+    "dental-implants":["dental implants east delhi", "single tooth implant delhi", "implant dentist nirman vihar"],
+    "invisalign":     ["invisalign east delhi", "clear aligners delhi", "orthodontist east delhi"],
+    "braces":         ["dental braces east delhi", "metal braces delhi", "teeth straightening nirman vihar"],
+    "kids-dentist":   ["kids dentist east delhi", "paediatric dentist delhi", "children dentist nirman vihar"],
+    "cosmetic":       ["cosmetic dentist delhi", "smile makeover delhi", "teeth whitening east delhi"],
+    "crowns-bridges": ["dental crowns east delhi", "zirconia crown delhi", "dental bridge nirman vihar"],
+    "whitening":      ["teeth whitening delhi", "teeth bleaching east delhi", "smile brightening nirman vihar"]
+  }
 }
