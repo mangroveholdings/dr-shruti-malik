@@ -92,7 +92,6 @@ const SmileGallerySection: React.FC = () => (
 
             <div className="lg-ba-info">
               <span className="lg-ba-treatment">{c.treatment}</span>
-              <span className="lg-ba-patient">{c.name}</span>
             </div>
           </div>
         ))}

@@ -2,7 +2,7 @@
   {
     "name": "Dr. Annu",
     "role": "BDS, MDS",
-    "speciality": "Prosthodontics & Crown Specialist",
+    "speciality": "Oral Medicine & Radiology",
     "photo": "/images/doctors/annu/dr-annu-02.webp",
     "objectPosition": "center center",
     "brightness": 1.15
@@ -10,21 +10,21 @@
   {
     "name": "Dr. Geetika",
     "role": "BDS",
-    "speciality": "General & Preventive Dentistry",
+    "speciality": "General & Cosmetic Dental Surgeon",
     "photo": "/images/doctors/geetika/dr-geetika-07.webp",
     "objectPosition": "center 20%"
   },
   {
     "name": "Dr. Roshni",
     "role": "BDS",
-    "speciality": "General & Cosmetic Dentistry",
+    "speciality": "General & Cosmetic Dental Surgeon",
     "photo": "/images/doctors/roshini/dr-roshini-17.webp",
     "objectPosition": "center 20%"
   },
   {
     "name": "Dr. Shilpa",
     "role": "BDS",
-    "speciality": "General & Laser Dentistry",
+    "speciality": "General & Cosmetic Dental Surgeon",
     "photo": "/images/doctors/shilpa/dr-shilpa-03.webp",
     "objectPosition": "center 20%"
   },
