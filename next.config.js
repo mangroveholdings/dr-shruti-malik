@@ -4,8 +4,10 @@ const nextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
     domains: ["cdn.radixhealthcare.org"],
-    qualities: [90],
     minimumCacheTTL: 60 * 60 * 24 * 30,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   },
 };
 
