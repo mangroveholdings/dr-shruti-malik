@@ -247,14 +247,6 @@
     {
       "category": "Chambers",
       "title": "Treatment Suite",
-      "alt": "High-technology dental treatment suite at Radix Cosmo Dental, East Delhi",
-      "link": "/images/chambers/treatment/treatment-suite-08.webp",
-      "imageSrc": "/images/chambers/treatment/treatment-suite-08.webp",
-      "mobileTitle": "Treatment Suite"
-    },
-    {
-      "category": "Chambers",
-      "title": "Treatment Suite",
       "alt": "Comfortable dental treatment room at Radix Cosmo Dental, Nirman Vihar, East Delhi",
       "link": "/images/chambers/treatment/treatment-suite-10.webp",
       "imageSrc": "/images/chambers/treatment/treatment-suite-10.webp",
@@ -274,14 +266,6 @@
       "alt": "Welcoming reception area at Radix Cosmo Dental clinic, Nirman Vihar, East Delhi",
       "link": "/images/receptions/reception-01.webp",
       "imageSrc": "/images/receptions/reception-01.webp",
-      "mobileTitle": "Reception"
-    },
-    {
-      "category": "Reception",
-      "title": "Reception Area",
-      "alt": "Modern dental clinic reception and waiting area at Radix Cosmo Dental, Nirman Vihar, East Delhi",
-      "link": "/images/receptions/reception-02.webp",
-      "imageSrc": "/images/receptions/reception-02.webp",
       "mobileTitle": "Reception"
     },
     {
@@ -318,14 +302,6 @@
     },
     {
       "category": "Team",
-      "title": "Dr. Geetika",
-      "alt": "Dr. Geetika, dentist at Radix Cosmo Dental, Nirman Vihar, East Delhi",
-      "link": "/images/doctors/geetika/dr-geetika-04.webp",
-      "imageSrc": "/images/doctors/geetika/dr-geetika-04.webp",
-      "mobileTitle": "Dr. Geetika"
-    },
-    {
-      "category": "Team",
       "title": "Dr. Roshni",
       "alt": "Dr. Roshni — General and Cosmetic Dentistry at Radix Cosmo Dental, Nirman Vihar, East Delhi",
       "link": "/images/doctors/roshini/dr-roshini-04.webp",
@@ -346,14 +322,6 @@
       "alt": "Dr. Shilpa — General and Laser Dentistry at Radix Cosmo Dental, Nirman Vihar, East Delhi",
       "link": "/images/doctors/shilpa/dr-shilpa-03.webp",
       "imageSrc": "/images/doctors/shilpa/dr-shilpa-03.webp",
-      "mobileTitle": "Dr. Shilpa"
-    },
-    {
-      "category": "Team",
-      "title": "Dr. Shilpa",
-      "alt": "Dr. Shilpa, laser dentistry specialist at Radix Cosmo Dental, Nirman Vihar, East Delhi",
-      "link": "/images/doctors/shilpa/dr-shilpa-06.webp",
-      "imageSrc": "/images/doctors/shilpa/dr-shilpa-06.webp",
       "mobileTitle": "Dr. Shilpa"
     }
   ]
