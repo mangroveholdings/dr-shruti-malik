@@ -18,8 +18,8 @@ const jsonLd = {
       url: "https://drshrutimalik.com",
       telephone: info.contact.phn,
       email: info.contact.email,
-      image: "https://drshrutimalik.com/Shruti.png",
-      logo: "https://drshrutimalik.com/Shruti.png",
+      image: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
+      logo: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
       priceRange: "₹₹",
       currenciesAccepted: "INR",
       paymentAccepted: "Cash, Card, UPI",
@@ -202,7 +202,7 @@ const jsonLd = {
       description:
         "Dr. Shruti Malik is a BDS, MDS (Endodontics) specialist with 10+ years of experience, Head of Department at Radix Cosmo Dental, Nirman Vihar, East Delhi. Trusted by 5,000+ patients.",
       medicalSpecialty: "Endodontics",
-      image: "https://drshrutimalik.com/Shruti.png",
+      image: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
       url: "https://drshrutimalik.com",
       worksFor: { "@id": "https://drshrutimalik.com/#practice" },
       alumniOf: "King George's Medical University, Lucknow",
@@ -284,6 +284,46 @@ const jsonLd = {
             text: "Dr. Shruti Malik offers root canal treatment, laser fillings, dental implants, Invisalign and braces, paediatric dentistry, teeth whitening, crowns, bridges, veneers, laser gum treatment, and cosmetic dentistry at Radix Cosmo Dental, Nirman Vihar, East Delhi.",
           },
         },
+        {
+          "@type": "Question",
+          name: "Who is the best dentist in East Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Dr. Shruti Malik at Radix Cosmo Dental, Nirman Vihar, is widely regarded as one of the best dentists in East Delhi. A BDS, MDS Endodontics specialist with 10+ years of experience, she is trusted by 5,000+ patients from Preet Vihar, Laxmi Nagar, Mayur Vihar, and across East Delhi.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How do I choose the right dental clinic in East Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Look for a clinic with advanced technology, experienced specialists, and genuine patient reviews. Radix Cosmo Dental offers dedicated suites for endodontics, paediatric dentistry, and cosmetic treatments — all under one roof in Nirman Vihar, East Delhi.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What makes Dr. Shruti Malik stand out as a dentist in Delhi?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Dr. Shruti Malik combines specialist MDS training in Endodontics with hands-on expertise in microscopic root canal treatment, laser dentistry, and smile makeovers. Her patient-first approach, advanced equipment, and consistently painless outcomes make her a top choice for dental care in Delhi and East Delhi.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is Radix Cosmo Dental good for families and children?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. We have a dedicated kids' dental chamber designed to make young patients feel at ease. Our paediatric dentist handles everything from cavity fillings and fluoride treatments to habit-breaking appliances — making us a trusted family dental clinic in East Delhi.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Can I get a smile makeover at Radix Cosmo Dental?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "We offer complete smile makeovers combining teeth whitening, veneers, crowns, and Invisalign aligners. Dr. Shruti Malik and her team create personalised smile plans based on your facial profile and goals.",
+          },
+        },
       ],
     },
     {
@@ -319,10 +359,10 @@ export const DefaultSeo = () => {
           description: siteSettings.description,
           images: [
             {
-              url: "https://drshrutimalik.com/Shruti.png",
-              width: 1200,
-              height: 630,
-              alt: "Dr. Shruti Malik — Best Dentist in East Delhi",
+              url: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
+              width: 1365,
+              height: 910,
+              alt: "Dr. Shruti Malik — Best Dentist in East Delhi | Radix Cosmo Dental",
             },
           ],
         }}

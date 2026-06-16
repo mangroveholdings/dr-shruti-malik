@@ -34,6 +34,26 @@ const faqs = [
     q: "What should I do in a dental emergency?",
     a: "Call us immediately at 1800-120-5457. We prioritise emergency cases including severe toothache, broken teeth, dental abscess, and trauma. Same-day emergency appointments are available Mon–Sat.",
   },
+  {
+    q: "Who is the best dentist in East Delhi?",
+    a: "Dr. Shruti Malik at Radix Cosmo Dental, Nirman Vihar, is widely regarded as one of the best dentists in East Delhi. A BDS, MDS Endodontics specialist with 10+ years of experience, she is trusted by 5,000+ patients from Preet Vihar, Laxmi Nagar, Mayur Vihar, and across East Delhi.",
+  },
+  {
+    q: "How do I choose the right dental clinic in East Delhi?",
+    a: "Look for a clinic with advanced technology, experienced specialists, and genuine patient reviews. Radix Cosmo Dental offers dedicated suites for endodontics, paediatric dentistry, and cosmetic treatments — all under one roof in Nirman Vihar, East Delhi.",
+  },
+  {
+    q: "What makes Dr. Shruti Malik stand out as a dentist in Delhi?",
+    a: "Dr. Shruti Malik combines specialist MDS training in Endodontics with hands-on expertise in microscopic root canal treatment, laser dentistry, and smile makeovers. Her patient-first approach, advanced equipment, and consistently painless outcomes make her a top choice for dental care in Delhi and East Delhi.",
+  },
+  {
+    q: "Is Radix Cosmo Dental good for families and children?",
+    a: "Yes. We have a dedicated kids' dental chamber designed to make young patients feel at ease. Our paediatric dentist handles everything from cavity fillings and fluoride treatments to habit-breaking appliances — making us a trusted family dental clinic in East Delhi.",
+  },
+  {
+    q: "Can I get a smile makeover at Radix Cosmo Dental?",
+    a: "Absolutely. We offer complete smile makeovers combining teeth whitening, veneers, crowns, and Invisalign aligners. Dr. Shruti Malik and her team create personalised smile plans based on your facial profile and goals.",
+  },
 ];
 
 const FAQSection: React.FC = () => {
