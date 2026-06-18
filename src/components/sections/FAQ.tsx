@@ -43,10 +43,6 @@ const faqs = [
     a: "Look for a clinic with advanced technology, experienced specialists, and genuine patient reviews. Radix Cosmo Dental offers dedicated suites for endodontics, paediatric dentistry, and cosmetic treatments — all under one roof in Nirman Vihar, East Delhi.",
   },
   {
-    q: "What makes Dr. Shruti Malik stand out as a dentist in Delhi?",
-    a: "Dr. Shruti Malik combines specialist MDS training in Endodontics with hands-on expertise in microscopic root canal treatment, laser dentistry, and smile makeovers. Her patient-first approach, advanced equipment, and consistently painless outcomes make her a top choice for dental care in Delhi and East Delhi.",
-  },
-  {
     q: "Is Radix Cosmo Dental good for families and children?",
     a: "Yes. We have a dedicated kids' dental chamber designed to make young patients feel at ease. Our paediatric dentist handles everything from cavity fillings and fluoride treatments to habit-breaking appliances — making us a trusted family dental clinic in East Delhi.",
   },
@@ -68,13 +64,17 @@ const FAQSection: React.FC = () => {
             Frequently Asked <em>Questions</em>
           </h2>
           <p className="lg-section-sub">
-            Answers to the most common questions about our treatments, pricing, and clinic.
+            Answers to the most common questions about our treatments, pricing,
+            and clinic.
           </p>
         </div>
 
         <div className="lg-faq-list">
           {faqs.map((faq, idx) => (
-            <div key={idx} className={`lg-faq-item${open === idx ? " open" : ""}`}>
+            <div
+              key={idx}
+              className={`lg-faq-item${open === idx ? " open" : ""}`}
+            >
               <button
                 className="lg-faq-question"
                 onClick={() => setOpen(open === idx ? null : idx)}

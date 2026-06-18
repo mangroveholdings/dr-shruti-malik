@@ -11,7 +11,7 @@ const MediaSection: React.FC = () => {
         <div className="lg-section-head">
           <span className="lg-eyebrow-plain">FEATURED ON</span>
           <h2 className="lg-section-title">
-            Featured On <em>Leading News</em>
+            <em>Leading News Platforms</em>
           </h2>
         </div>
 
@@ -36,9 +36,13 @@ const MediaSection: React.FC = () => {
                 className={`lg-media-card ${isPlaying ? "is-playing" : ""}`}
                 onMouseEnter={() => setHoveredMediaIdx(1000 + i)}
                 onMouseLeave={() =>
-                  setHoveredMediaIdx((prev) => (prev === 1000 + i ? null : prev))
+                  setHoveredMediaIdx((prev) =>
+                    prev === 1000 + i ? null : prev,
+                  )
                 }
-                onClick={() => window.open(item.link, "_blank", "noopener,noreferrer")}
+                onClick={() =>
+                  window.open(item.link, "_blank", "noopener,noreferrer")
+                }
                 role="button"
                 tabIndex={0}
                 onKeyDown={(e) => {

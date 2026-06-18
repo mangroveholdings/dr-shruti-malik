@@ -30,29 +30,42 @@ const AboutSection: React.FC = () => (
             <div className="lg-essential-stat-label">Smiles</div>
           </div>
           <div className="lg-essential-stat lg-essential-stat-bottom">
-            <div className="lg-essential-stat-num">{about.customerSatisfaction}%</div>
-            <div className="lg-essential-stat-label">Success<br />Rate</div>
+            <div className="lg-essential-stat-num">
+              {about.customerSatisfaction}%
+            </div>
+            <div className="lg-essential-stat-label">
+              Success
+              <br />
+              Rate
+            </div>
           </div>
         </div>
 
         <div className="lg-essential-text">
-          <span className="lg-eyebrow-plain">ABOUT DR. SHRUTI</span>
-          <h2 className="lg-essential-title">Meet Dr. <em>Shruti Malik</em></h2>
+          <span className="lg-eyebrow-plain">ABOUT THE DOCTOR</span>
+          <h2 className="lg-essential-title">
+            Meet Dr. <em>Shruti Malik</em>
+          </h2>
           <div className="lg-essential-role">
             Director &amp; Head of Department &middot; Malik Radix Healthcare
             <br />
-            <span>Dentist &middot; Endodontist &middot; 10+ Years Experience</span>
+            <span>
+              Dentist &middot; Endodontist &middot; 10+ Years Experience
+            </span>
           </div>
           <p>
-            A passionate Endodontist on a mission for perfect oral health. With a BDS &amp; MDS
-            (Endodontics) from Lucknow and a decade of experience treating thousands, she
-            champions Community &amp; Family Dentistry at Radix Cosmo Dental &mdash; where the
-            best equipment meets the most skilled hands.
+            A passionate Endodontist on a mission for perfect oral health. With
+            a BDS &amp; MDS (Endodontics) from Lucknow and a decade of
+            experience treating thousands, she champions Community &amp; Family
+            Dentistry at Radix Cosmo Dental &mdash; where the best equipment
+            meets the most skilled hands.
           </p>
           <ul className="lg-essential-points">
             {essentialCarePoints.map((p) => (
               <li key={p}>
-                <span className="lg-essential-check"><FaCheck /></span>
+                <span className="lg-essential-check">
+                  <FaCheck />
+                </span>
                 {p}
               </li>
             ))}

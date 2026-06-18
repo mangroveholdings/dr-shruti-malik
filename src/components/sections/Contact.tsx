@@ -73,7 +73,7 @@ const ContactSection: React.FC = () => (
       {/* Full-width map with overlay card */}
       <div className="lg-map-redesign">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d875!2d77.28579937549574!3d28.638293384411654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb2ba76d1c5d%3A0x0!2sNirman%20Vihar%2C%20Delhi%20110092!5e0!3m2!1sen!2sin!4v1700000000000"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d954!2d77.288039!3d28.6354172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfb55e077a683%3A0x17bea14df2def9ce!2sDr.+Shruti+Malik!5e0!3m2!1sen!2sin!4v1700000000000"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
           allowFullScreen

@@ -23,7 +23,7 @@ const WhyUsSection: React.FC = () => (
   <section className="lg-section" id="why-us">
     <div className="lg-container">
       <div className="lg-section-head">
-        <span className="lg-eyebrow-plain">WHY CHOOSE US</span>
+        <span className="lg-eyebrow-plain">WHY CHOOSE US ?</span>
         <h2 className="lg-section-title">
           Experience the <em>Difference</em>
         </h2>
