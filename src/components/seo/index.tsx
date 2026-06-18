@@ -204,6 +204,16 @@ const jsonLd = {
       medicalSpecialty: "Endodontics",
       image: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
       url: "https://drshrutimalik.com",
+      telephone: info.contact.phn,
+      priceRange: "₹₹",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "C/217 - C/218, Nirman Vihar, Vikas Marg",
+        addressLocality: "East Delhi",
+        addressRegion: "Delhi",
+        postalCode: "110092",
+        addressCountry: "IN",
+      },
       worksFor: { "@id": "https://drshrutimalik.com/#practice" },
       alumniOf: "King George's Medical University, Lucknow",
       knowsAbout: [
