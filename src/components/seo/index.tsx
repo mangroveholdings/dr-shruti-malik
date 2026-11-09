@@ -3,6 +3,9 @@ import Head from "next/head";
 import siteSettings from "@utils/siteSettings/siteSettings.json";
 import info from "@utils/siteSettings/info.json";
 
+// One image everywhere (og:image, schema, primaryImageOfPage) so Google picks it as the search thumbnail.
+const SHARE_IMAGE = "https://drshrutimalik.com/og-dr-shruti-malik.jpg";
+
 const jsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -18,8 +21,8 @@ const jsonLd = {
       url: "https://drshrutimalik.com",
       telephone: info.contact.phn,
       email: info.contact.email,
-      image: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
-      logo: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
+      image: SHARE_IMAGE,
+      logo: SHARE_IMAGE,
       priceRange: "₹₹",
       currenciesAccepted: "INR",
       paymentAccepted: "Cash, Card, UPI",
@@ -202,7 +205,7 @@ const jsonLd = {
       description:
         "Dr. Shruti Malik is a BDS, MDS (Endodontics) specialist with 10+ years of experience, Head of Department at Radix Cosmo Dental, Nirman Vihar, East Delhi. Trusted by 5,000+ patients.",
       medicalSpecialty: "Endodontics",
-      image: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
+      image: SHARE_IMAGE,
       url: "https://drshrutimalik.com",
       telephone: info.contact.phn,
       priceRange: "₹₹",
@@ -337,6 +340,26 @@ const jsonLd = {
       ],
     },
     {
+      "@type": "WebPage",
+      "@id": "https://drshrutimalik.com/#webpage",
+      url: "https://drshrutimalik.com/",
+      name: siteSettings.title,
+      isPartOf: { "@id": "https://drshrutimalik.com/#website" },
+      about: { "@id": "https://drshrutimalik.com/#doctor" },
+      primaryImageOfPage: { "@id": "https://drshrutimalik.com/#primaryimage" },
+      image: { "@id": "https://drshrutimalik.com/#primaryimage" },
+      inLanguage: "en-IN",
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://drshrutimalik.com/#primaryimage",
+      url: SHARE_IMAGE,
+      contentUrl: SHARE_IMAGE,
+      width: 1200,
+      height: 630,
+      caption: "Dr. Shruti Malik — Endodontist at Radix Cosmo Dental, Nirman Vihar, East Delhi",
+    },
+    {
       "@type": "WebSite",
       "@id": "https://drshrutimalik.com/#website",
       url: "https://drshrutimalik.com",
@@ -369,9 +392,10 @@ export const DefaultSeo = () => {
           description: siteSettings.description,
           images: [
             {
-              url: "https://drshrutimalik.com/images/doctors/shruti/dr-shruti-malik-13.webp",
-              width: 1365,
-              height: 910,
+              url: SHARE_IMAGE,
+              width: 1200,
+              height: 630,
+              type: "image/jpeg",
               alt: "Dr. Shruti Malik — Best Dentist in East Delhi | Radix Cosmo Dental",
             },
           ],
@@ -384,8 +408,8 @@ export const DefaultSeo = () => {
         additionalMetaTags={[
           { name: "viewport", content: "width=device-width, initial-scale=1" },
           { name: "author", content: "Dr. Shruti Malik" },
-          { name: "robots", content: "index, follow" },
-          { name: "googlebot", content: "index, follow" },
+          { name: "robots", content: "index, follow, max-image-preview:large" },
+          { name: "googlebot", content: "index, follow, max-image-preview:large" },
           { name: "geo.region", content: "IN-DL" },
           { name: "geo.placename", content: "East Delhi, Delhi" },
           { name: "geo.position", content: "28.638293;77.285799" },
